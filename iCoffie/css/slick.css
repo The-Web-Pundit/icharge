@@ -1,0 +1,255 @@
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+    outline: 0;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+
+.slick-next {
+	right: -22px !important;
+}
+.slick-list {
+	width: 100% !important;
+}
+
+.slick-prev {
+	left: -20px !important;
+}
+
+.lg-controls-dark .slick-next:before,
+.lg-controls-dark .slick-prev:before {
+	color: #fff;
+}
+
+.lg-controls-dark .slick-next,
+.lg-controls-dark .slick-next:hover,
+.lg-controls-dark .slick-next:focus,
+.lg-controls-dark .slick-prev,
+.lg-controls-dark .slick-prev:hover,
+.lg-controls-dark .slick-prev:focus {
+	width: 30px;
+	height: 30px;
+	background-color: transparent;
+}
+
+.slick-next,
+.slick-prev {
+	z-index: 99;
+}
+
+.tech-facts-slider .slick-slide {
+	padding: 0px 5px;
+}
+
+.custom-controls-light .slick-prev:before,
+.custom-controls-light .slick-next:before {
+	color: transparent;
+}
+
+.slick-slide {
+	transition: all ease-in-out .3s;
+	padding: 0px 20px;
+    opacity: 0.2;
+    margin-bottom: 20px;
+}
+
+.slick-active,
+.slick-current {
+	opacity: 1;
+}
+
+.go-jek-slider .slick-slide {
+	margin: 0px;
+}
+
+.go-jek-slider .slick-active {
+	opacity: 0.2;
+}
+
+.go-jek-slider .slick-current,
+.slick-current {
+	opacity: 1;
+}
+
+.impact-slider .slick-slide,
+.go-jek-slider .slick-slide {
+	padding: 0px;
+}
+
+.impact-slider .slick-active {
+	opacity: 0.1;
+	pointer-events: none;
+}
+
+.impact-slider .slick-current {
+	opacity: 1;
+	pointer-events: visible;
+	cursor: pointer;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-family: 'Font Awesome 5 Free' !important;
+    color: red !important;
+    font-weight: 900;
+}
+
+.slick-next:before {
+    content: "\f30b" !important;
+}
+
+.slick-prev:before {
+    content: "\f30a" !important;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.custom-controls-dark .slick-next:before,
+	.custom-controls-dark .slick-prev:before {
+		color: red;
+		opacity: 1;
+	}
+	.custom-controls-dark .slick-next,
+	.custom-controls-dark .slick-next:hover,
+	.custom-controls-dark .slick-next:focus,
+	.custom-controls-dark .slick-prev,
+	.custom-controls-dark .slick-prev:hover,
+	.custom-controls-dark .slick-prev:focus {
+		width: 30px;
+		height: 30px;
+		background-color: transparent;
+	}
+	.custom-controls-light .slick-next,
+	.custom-controls-light .slick-next:hover,
+	.custom-controls-light .slick-next:focus,
+	.custom-controls-light .slick-prev,
+	.custom-controls-light .slick-prev:hover,
+	.custom-controls-light .slick-prev:focus {
+		width: 30px;
+		height: 30px;
+		background-color: #fff;
+	}
+}
+.form-control:focus {
+    border-color: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 none;
+    background: transparent;
+  }

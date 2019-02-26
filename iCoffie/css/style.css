@@ -1,0 +1,246 @@
+/* Fonts Import stats */
+@font-face {
+  font-family: "Karla-Bold";
+  src: url(../fonts/Karla-Bold.ttf);
+}
+@font-face {
+  font-family: "Karla-Regular";
+  src: url(../fonts/Karla-Regular.ttf);
+}
+@font-face { 
+  font-family: "NunitoSans-Regular";
+  src: url(../fonts/NunitoSans-Regular.ttf);
+}
+@font-face {
+  font-family: "NunitoSans-Black";
+  src: url(../fonts/NunitoSans-Black.ttf);
+}
+@font-face {
+  font-family: "NunitoSans-Bold";
+  src: url(../fonts/NunitoSans-Bold.ttf);
+}
+@font-face {
+  font-family: "MuseoSans";
+  src: url(../fonts/MuseoSans_500.otf);
+}
+@font-face {
+  font-family: "Karla-Italic";
+  src: url(../fonts/Karla-Italic.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative; 
+}
+/* Fonts Import ends */  
+/* Banner image */
+.icoffie-banner {
+  background: url("../img/icoffie-banner.png") center;
+  background-size: cover;
+  height:100vh;
+ }
+
+ .stayupdated-banner {
+  background: url("../img/stay-updated-banner.png") center;
+  background-size: cover;
+  height:40vh;
+}
+.findretailer-banner {
+  background: url("../img/find-retailer-banner.png") center;
+  background-size: cover;
+  height:40vh;
+}
+/* End of banner image */
+
+/* Navbar classes starts */
+ /* Navbar Styling starts */
+ .card-font {
+   font-family: "MuseoSans";
+ }
+ .navbar-nav .active > .nav-link,
+ .navbar-nav .nav-link:hover,
+ .navbar-nav .show>.nav-link {
+   color:#ee6336;
+
+ }
+ .navbar-nav .nav-link.active{
+  color:#000 !important;
+}
+ .navbar-nav .nav-link {
+  font-family: "Karla-Bold", sans-serif;
+    color:#ee6336;
+    font-size:0.9rem;
+ }
+ .product-text {
+   color:#dec8ba;
+ }
+/* End of navbar classes */
+/* main styling starts */
+body {
+  font-size:0.9rem;
+  font-family: "Karla-Regular", sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.2rem;
+  color: #000;
+}
+.banner-text {
+  font-size:4rem;
+}
+.highlight {
+  color:#ee6336;
+}
+.brew-bg {
+  background-color:#ebebeb;
+}
+.products-bg {
+  background-color: #252422;
+}
+.main-heading {
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+  font-family: "Karla-Bold", sans-serif;
+  text-transform: uppercase;
+  color: #30373d;
+}
+.products-sub-heading {
+  font-family: "Karla-Bold", sans-serif;
+  font-size:1rem;
+}
+.benifits-heading {
+  font-size:1.3rem;
+  font-family: "Karla-Bold", sans-serif;
+  line-height:1.8rem;
+  color:#32393f;
+}
+.benifit-para {
+  font-family:"NunitoSans-Regular";
+  color:#32393f;
+  line-height: 1.5rem;
+}
+.benifit-desk {
+  font-family: "NunitoSans-Bold";
+  color:#32393f;
+}
+.b-description_readmore_button{
+  font-family:"NunitoSans-Black";
+  font-size:0.8rem;
+  color:#32393f;
+}
+.icoffie-heading {
+  font-size: 1.375rem;
+  line-height: 18px;
+  font-family: "Karla-Regular", sans-serif;
+  color:#fff;
+}
+
+.retail-btn {
+  border:2px solid #ee6336;
+  font-family: "Karla-Bold", sans-serif;
+  font-size:0.9rem;
+  letter-spacing:3px;
+}
+.retailer-heading {
+  font-size: 1.75rem;
+  font-family: "Karla-Regular", sans-serif;
+  letter-spacing: 5px;
+}
+.retailer-subheading{
+  font-family: "NunitoSans-Bold";
+  font-size:1.25rem;
+  line-height: 1.5rem;
+  color: #c9a98b;
+}
+.form-border-bottom {
+  border:transparent;
+  border-bottom: 1px solid #ee6336;
+}
+.button-text {
+  background-color: #ee6336;
+  font-size: 1rem;
+  color:#fff;
+}
+.contact-heading {
+  font-size: 1.2rem;
+  color:#3d3d3d;
+  font-family: "Karla-Bold", sans-serif;
+}
+
+.section-heading {
+  font-size:1.5rem;
+  /* line-height: 18px; */
+  letter-spacing: 5px;
+  font-family: "Karla-Bold", sans-serif;
+  text-transform: uppercase;
+  color:#ee6336;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: #000;
+}
+.know-us-better{
+    font-family:"NunitoSans-Regular";
+    color:#989898;
+    font-size:0.95rem;
+    line-height: 1rem;
+}
+.card-para {
+  font-size:0.9rem;
+}
+.card-head {
+  font-size:0.8rem;
+  font-family:"karla-bold";
+}
+.card-text {
+  color:#bdbdbd;
+}
+.profile-para {
+  font-size:1rem ;
+  font-family:"NunitoSans-Regular";
+  color:#32393f;
+  line-height:1.5rem;
+}
+a {
+  color:black;
+}
+a:hover, a:focus, a:active,a:link {
+  text-decoration: none;
+  color: #000;
+}
+.footer-head {
+  font-size:1.25rem;
+  font-family:"karla-bold";
+  color:#8c8e8f;
+}
+.footer-sub li a {
+  color:#3d3d3d;
+  font-size:0.8rem;
+}
+.head-desk {
+  font-family: "Karla-Italic";
+}
+/* End of main styling */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
