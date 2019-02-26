@@ -1,0 +1,192 @@
+body {
+    background: linear-gradient(#616161, #070707);
+}
+
+.section-heading {
+    letter-spacing: 2.2px;
+    font-weight: 500;
+}
+
+.nav-link {
+    font-size: .74rem;
+    font-weight: 500;
+    letter-spacing: .9px;
+}
+
+.gradient-head {
+    background: linear-gradient(90deg, #a8cf3a, #41bca8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icharge-desc {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.28;
+}
+
+.ingredients {
+    letter-spacing: 10.4px;
+}
+
+.font-8 {
+    font-size: .8rem;
+}
+
+.font-9 {
+    font-size: .9rem;
+}
+
+.small-bb {
+    position: relative;
+    font-size: .8rem;
+    font-weight: bold;
+    &::after {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        content: "";
+        transform: translateX(-50%);
+        width: 80%;
+        height: 1px;
+        background: linear-gradient(90deg, #a8cf3a, #41bca8);
+    }
+}
+
+.head-abs {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    h4 {
+        padding: .75rem 0;
+        display: inline;
+        position: relative;
+        letter-spacing: 2.2px;
+        &::after {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            content: "";
+            width: 75%;
+            height: 3px;
+            background: linear-gradient(90deg, #a8cf3a, #41bca8);
+        }
+    }
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.font-7 {
+    font-size: .7rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.purchase-btn {
+    background: linear-gradient(90deg, #a8cf3a, #41bca8);
+    color: #070707;
+    font-weight: bold;
+    letter-spacing: 1.48px;
+    font-size: 1em;
+    &:hover {
+        text-decoration: none;
+        color: #070707;
+    }
+}
+
+.contact-text {
+    font-size: .8rem;
+    color: #616161;
+}
+
+.form-group {
+    position: relative;
+    &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: "";
+        width: 100%;
+        height: 1px;
+        background: linear-gradient(90deg, #a8cf3a, #41bca8);
+    }
+}
+
+.form-control {
+    font-size: .85rem;
+    letter-spacing: .58px;
+    background: transparent;
+    border-radius: 0;
+    &:focus {
+        border-color: none;
+        box-shadow: none;
+        outline: 0 none;
+        background: transparent;
+    }
+    &::placeholder {
+        color: #616161;
+    }
+}
+
+.gradient-btn {
+    transition: 100ms ease-in;
+    cursor: pointer;
+    font-weight: 500;
+    color: #fff;
+    padding: 1rem;
+    font-size: .9rem;
+    letter-spacing: .48px;
+    padding: .5rem 2rem;
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(90deg, #a8cf3a, #41bca8);;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #070707 inset;
+    &:hover {
+        box-shadow: none;
+        color: white;
+    }
+}
+
+.grad-btn-0A0A0A {
+    box-shadow: 2px 1000px 1px #191919 inset;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.grad-btn-515151 {
+    box-shadow: 2px 1000px 1px #515151 inset;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+footer {
+    background-color: #030303;
+    h6 {
+        letter-spacing: 1.26px;
+        font-size: .8rem;
+        font-weight: bold;
+        color: #8c8e8f;
+    }
+    a {
+        font-size: .95rem;
+        color: #434343;
+        transition: 100ms ease-in;
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+    .copy-text {
+        color: #434343;
+        font-size: .75rem;
+    }
+}
