@@ -1,0 +1,94 @@
+.custom-slide {
+    top:100%;
+    right:50%;
+}
+.image-position {
+    position: absolute;
+    top:9%;
+}
+.orange, .vanilla, .chocolate, .mango{
+    font-size: 18rem;
+    color:rgba(255, 255, 255, 0.29);
+}
+
+@media (max-width: 575.98px) {
+   
+    .orange {
+        font-size: 6rem;
+        color:rgba(255, 255, 255, 0.29);
+    }
+    .orange-banner {
+        min-height:12vh !important;    
+    }
+    .mango-banner {
+        min-height:12vh !important;    
+    }   
+    .vanilla-banner {
+        min-height:12vh !important;    
+    }
+    .chacolate-banner {
+        min-height:12vh !important;    
+    }
+    .custom-slide {
+        top:100%;
+        right:15%;
+        padding-top:0.5rem;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+   
+  }
+
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .orange {
+        font-size: 10rem;
+        color:rgba(255, 255, 255, 0.29);
+    }
+    .orange-banner {
+        min-height:17vh !important;    
+    }
+    .mango-banner {
+        min-height:17vh !important;    
+    }   
+    .vanilla-banner {
+        min-height:17vh !important;    
+    }
+    .chacolate-banner {
+        min-height:17vh !important;    
+    }
+    .custom-slide {
+        top:100%;
+        right:40%;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {}
+
+
+  @media (min-width:1400px) {
+    .orange-banner {
+        min-height:25vh !important;    
+    }
+    .mango-banner {
+        min-height:25vh !important;    
+    }
+    .vanilla-banner {
+        min-height:25vh !important;    
+    }
+    .chacolate-banner {
+        min-height:25vh !important;    
+    }
+  }
+ 
+.carousel-indicators li {
+    height:20px;
+    width:20px;
+   background-color: black;
+}
+
+  
+/* .col-12.col-md-4.fb3-hover.text-center img:hover{
+vertical-align: -webkit-baseline-middle;
+} */
