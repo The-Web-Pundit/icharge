@@ -97,7 +97,7 @@ body {
   background-color: #252422;
 }
 .main-heading {
-  font-size: 1.5rem;
+  font-size: 2rem;
   letter-spacing: 4px;
   font-family: "Karla-Bold", sans-serif;
   text-transform: uppercase;
@@ -140,6 +140,12 @@ body {
   font-size:0.9rem;
   letter-spacing:3px;
 }
+.retail-btn:hover {
+  background-color: #ee6336;
+}
+.retail-btn:focus{
+  box-shadow: none;
+}
 .retailer-heading {
   font-size: 1.75rem;
   font-family: "Karla-Regular", sans-serif;
@@ -167,7 +173,7 @@ body {
 }
 
 .section-heading {
-  font-size:1.5rem;
+  font-size:2rem;
   /* line-height: 18px; */
   letter-spacing: 5px;
   font-family: "Karla-Bold", sans-serif;
@@ -218,7 +224,13 @@ a:hover, a:focus, a:active,a:link {
 }
 .head-desk {
   font-family: "Karla-Italic";
+  font-size: 2rem;
 }
+[aria-expanded="true"] > .collapsed,
+[aria-expanded="false"] > .expanded {
+  display: none;
+}
+
 /* End of main styling */
 
 
