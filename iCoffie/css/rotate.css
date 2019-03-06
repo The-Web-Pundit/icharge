@@ -5,17 +5,17 @@
 }
 
 .slidingVertical span{
-	animation: topToBottom 7s linear infinite 0s;
-	-ms-animation: topToBottom 7s linear infinite 0s;
-	-webkit-animation: topToBottom 7s linear infinite 0s;
+	animation: topToBottom 5s linear infinite 0s;
+	-ms-animation: topToBottom 5s linear infinite 0s;
+	-webkit-animation: topToBottom 5s linear infinite 0s;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
 }
 .slidingVertical span:nth-child(2){
-	animation-delay: 2.5s;
-	-ms-animation-delay: 2.5s;
-	-webkit-animation-delay: 2.5s;
+	animation-delay: 2s;
+	-ms-animation-delay: 2s;
+	-webkit-animation-delay: 2s;
 }
 
 /*topToBottom Animation*/
@@ -54,9 +54,9 @@
 	/* text-indent: 8px; */
 }
 .fadeIn span{
-	animation: fadeEffect 7s linear infinite 0s;
-	-ms-animation: fadeEffect 7s linear infinite 0s;
-	-webkit-animation: fadeEffect 7s linear infinite 0s;
+	animation: fadeEffect 5s linear infinite 0s;
+	-ms-animation: fadeEffect 5s linear infinite 0s;
+	-webkit-animation: fadeEffect 5s linear infinite 0s;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
