@@ -1,0 +1,149 @@
+.bar-position {
+  position: absolute;
+  top:27%;
+}
+
+.button-position {
+  position: absolute;
+  top:85%;
+}
+.orange, .vanilla, .chocolate, .mango{
+    font-size: 18rem;
+    color:rgba(255, 255, 255, 0.29);
+}
+.space {
+    height:100vh;
+}
+.blend {
+  height:50vh;
+}
+.nature {
+  height:95vh;
+} 
+.btn:focus {
+  outline: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 575.98px) {
+   
+  .flavour-position {
+    position: absolute;
+    top:28%;
+  }
+  .orange, .vanilla, .chocolate, .mango{
+    font-size: 6rem;
+    color:rgba(255, 255, 255, 0.29);
+}
+.button-position {
+  position: absolute;
+  top:86%;
+}
+.space {
+  height:60vh;
+}
+.blend {
+height:30vh;
+} 
+.nature {
+  height:160vh;
+} 
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .flavour-position {
+      position: absolute;
+      top:11%;
+    }
+    .orange, .vanilla, .chocolate, .mango{
+      font-size: 12rem;
+      color:rgba(255, 255, 255, 0.29);
+  }
+  .button-position {
+    position: absolute;
+    top:86%;
+  }
+  .bar-position {
+    position: absolute;
+    top:35%;
+  }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199.98px) 
+  { 
+    .flavour-position {
+      position: absolute;
+      top:10%;
+    }
+    .orange, .vanilla, .chocolate, .mango{
+      font-size: 15rem;
+      color:rgba(255, 255, 255, 0.29);
+  }
+  .button-position {
+    position: absolute;
+    top:85%;
+  }
+  .bar-position {
+    position: absolute;
+    top:28%;
+  }
+  .fat {
+    margin-top:2rem;
+  }
+  }
+
+  @media (min-width: 1200px) and (max-width:1440px) 
+  { 
+    .flavour-position {
+      position: absolute;
+      top:14%;
+    }
+    .orange, .vanilla, .chocolate, .mango{
+      font-size: 16rem;
+      color:rgba(255, 255, 255, 0.29);
+  }
+  .button-position {
+    position: absolute;
+    top:85%;
+  }
+  .bar-position {
+    position: absolute;
+    top:29%;
+  }
+ 
+
+  }
+
+  
+  @media  (min-width:2400px){
+    .orange, .vanilla, .chocolate, .mango{
+      font-size: 30rem;
+      color:rgba(255, 255, 255, 0.29);
+  }
+  .flavour-position {
+    position: absolute;
+    top:29%;
+  }
+  .button-position {
+    position: absolute;
+    top:90%;
+  }
+  .custom {
+    height:100vh;
+  }
+  }
+  .shadowed {
+    -webkit-filter: drop-shadow(10px 10px 10px #222222);
+    filter: drop-shadow(10px 10px 10px #222222);
+}
+.bar-shadow {
+  -webkit-box-shadow: -2px 2px 51px 16px rgba(0,0,0,0.09);
+-moz-box-shadow: -2px 2px 51px 16px rgba(0,0,0,0.09);
+box-shadow: -2px 2px 51px 16px rgba(0,0,0,0.09);
+}
+
+ 
+  
+

@@ -1,0 +1,319 @@
+/* Adding Font Family */
+@font-face {
+    font-family: "Futura-Std-Bold";
+    src: url(fonts/Futura-Std-Bold_19042.ttf);
+  }
+  @font-face {
+    font-family: "Futura-Std-Book";
+    src: url(fonts/Futura-Std-Book_19044.ttf);
+  }
+  @font-face {
+    font-family: "FuturaStd-Heavy";
+    src: url(fonts/FuturaStd-Heavy.otf);
+  }
+  @font-face {
+    font-family: "Futura-Std-Medium";
+    src: url(fonts/Futura-Std-Medium_19058.ttf);
+  }
+  @font-face {
+    font-family: "Futura-Std-Light-Condensed";
+    src: url(fonts/Futura-Std-Light-Condensed_19052.ttf);
+  }
+  
+  html {
+      scroll-behavior: smooth;
+  }
+  /* Classes */
+.Futura-Std-Book {
+    font-family: "Futura-Std-Book";
+}
+.Futura-Std-Bold {
+    font-family: "Futura-Std-Bold";
+}
+.FuturaStd-Heavy {
+    font-family: "FuturaStd-Heavy";
+}
+.Futura-Std-Medium {
+    font-family: "Futura-Std-Medium";
+}
+.Futura-Std-Light-Condensed {
+    font-family: "Futura-Std-Light-Condensed";
+}
+/* End of font classes */
+body {
+      font-size:0.875rem;
+      font-family: "Futura-Std-Book";
+}
+/* header{
+    background-color: #eaceb3;
+} */
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active{
+    color:#f16a7b !important;
+}
+.morelink{
+    color:#353635;
+    font-size:14px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:#353635;
+    font-family: 'Dosis', sans-serif;
+    font-weight:600;
+    letter-spacing: 1px;
+}
+.section-head {
+    font-family:"FuturaStd-Heavy";
+    font-size:2.5rem;
+}
+.islim {
+    font-family:'Dosis', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size:1.5rem;
+}
+.islim p {
+    font-family:"FuturaStd-Heavy";
+    line-height:1.75rem;
+}
+.benifit-desk {
+  font-size:1.25rem;
+  line-height: 1.75rem;
+  color:#353635;
+}
+.dark {
+    color:#000000;
+}
+.profile p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:400;
+}
+.primary-color{
+    color: #353635;
+}
+.font-8{
+    font-size: 0.8rem ;
+}
+.font-85{
+    font-size: 0.85rem;
+}
+.font-9{
+    font-size: 0.9rem;
+}
+.font-10{
+    font-size: 1.0rem ;
+}
+.font-11{
+    font-size: 1.1rem ;
+}
+a:hover {
+    text-decoration: none;
+}
+.orange-bar{
+    background-color: #ee4d33;}
+.vanilla-bar 
+{ background-color: #eaceb3;}
+.mango-bar {
+    background-color: #fda629;
+}
+.chocolate-bar {
+    background-color: #431e1e;
+}
+#fb3,#ingredients{
+    background-color: #FAF7F4;
+}
+.card-1{
+    background-color: #E9CCB0;
+    height: 100%;
+    border-radius: 0;   
+}
+
+#purchase{
+    background: url("../img/purchase.png") no-repeat scroll center center;
+    background-size: cover;
+}
+/* .orange-banner{
+    background: url("../img/element-orange.png") no-repeat scroll center center;
+    background-size: cover;
+    
+} */
+.orange-banner {
+    background-image: url('../img/element-orange.png');
+    background-repeat: repeat;
+    background-position: 50% 0;    
+    padding: 30px;
+}
+.mango-banner{
+    background: url("../img/mango-element.png") no-repeat scroll center center;
+    background-size: cover;
+}
+.chocolate-banner{
+    background: url("../img/element-chocolate.png") no-repeat scroll center center;
+    background-size: cover;
+}
+.vanilla-banner{
+    background: url("../img/elements-vanilla.png") no-repeat scroll center center;
+    background-size: cover;
+}
+
+#purchase .col-12 {
+    /* background: rgba(248,249,250, 0.8); */
+    background-color: #fff;
+    opacity: 0.95;
+}
+.are-you{
+    color: #B2AEAD;
+    font-weight: 500;
+}
+.card-2,.card-3 h6{
+    color: #f16a7b;
+}
+.card-2{
+    border-color: rgba(214,214,209,0.8);
+    border-width: 0.5rem;
+    border-radius: 0;
+    background-color: #F7F4F1; 
+}
+.card-3{
+    border-color: rgba(234,206,179,0.8);
+    border-width: 0.5rem;
+    border-radius: 0;
+    background-color: #F7F4F1;   
+}
+.learn-more{
+    font-size: 0.5rem;
+    border-bottom: 1px solid #000;
+    letter-spacing: 1px;
+}
+
+#testimonial{
+    background-color: #F7F4F1;
+}
+#contact{
+    background-color: #EBCFB4;
+}
+#contact h5 {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+}
+.regular-font, .form-group{
+    font-family: 'Karla', sans-serif;
+    font-weight:400;
+}
+.subscribe-form .form-control {
+    color: #000 !important;
+    border-radius: 0;
+    background-color: transparent;
+    border: 1.5px solid #eaceb3;
+}
+.subscribe-form .form-control:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: 0 none;
+    background: transparent;
+}
+.subscribe-form .form-control::placeholder {
+    color: #3d3d3d;
+}
+.contact-form .form-control{
+    color: #000 !important;
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1.5px solid #bb744d;
+}
+.contact-form .form-control:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: 0 none;
+    background: transparent;
+}
+.contact-form .form-control::placeholder {
+    color: #3d3d3d;
+}
+.contact-form .submit {
+    background: transparent;
+    border: 1.5px solid #bb744d;
+    color: #bb744d;
+    font-weight: 500;
+}
+footer {
+    background-color: #000;
+}
+footer h6 {
+    letter-spacing: 1.26px;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #fff;
+}
+footer a {
+    font-size: .95rem;
+    color: #fff;
+    transition: 100ms ease-in;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+footer .copy-text {
+    color: #fff;
+    font-size: .75rem; 
+}
+.health {
+    font-family:'Dosis', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height:1.5;
+}
+
+.overlay-text{
+    font-size: 0.675rem;
+}
+
+
+.img__wrap {
+  position: relative;
+}
+.img__description_layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,.8);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description_layer {
+  visibility: visible;
+  opacity: 1;
+}
+
+.img__description {
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+.img__wrap:hover .img__description {
+  transform: translateY(0);
+}
+.testing {
+    background-color: #eaceb3;
+}
+.b-description_readmore_button {
+    font-family: "FuturaStd-Heavy";
+    color:#353635;
+    font-size:14px;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
