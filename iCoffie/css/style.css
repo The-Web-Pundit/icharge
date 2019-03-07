@@ -135,16 +135,18 @@ body {
   color:#fff;
 }
 
-.retail-btn {
+.retail-btn, .retail-btn-1{
   border:2px solid #ee6336;
   font-family: "Karla-Bold", sans-serif;
   font-size:0.9rem;
   letter-spacing:3px;
 }
-.retail-btn:hover {
+.retail-btn:hover,
+.retail-btn-1:hover {
   background-color: #ee6336;
 }
-.retail-btn:focus{
+.retail-btn:focus,
+.retail-btn-1:focus{
   box-shadow: none;
 }
 .retailer-heading {
