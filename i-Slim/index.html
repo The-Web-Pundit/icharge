@@ -145,19 +145,18 @@
             <div class="col-12 px-0 blend">
                 <div class="px-0  flavour-bg  orange-bar">
                     <h1 class="text-uppercase text-center Futura-Std-Light-Condensed flavour-text blend orange"
-                        data-aos="zoom-in" data-aos-duration="1000">Orange</h1>
+                    data-aos=" zoom-in" data-aos-duration="1000">Orange</h1>
                 </div>
             </div>
             <div class="col-12 px-0 blend">
-                <div class="orange-banner flavour-bg-img blend">
+                <div class="orange-banner flavour-bg-img blend" data-aos=" zoom-in" data-aos-duration="2500">
                 </div>
+
             </div>
-            <div class="col-12 px-0 flavour-container flavour-position">
-                <!-- <img src="img/orange-bar.png" alt="orangr bar" data-aos="fade-down" data-aos-duration="100"
-                    class="img-fluid orange-bar-img flavour-img alignnone"> -->
-                <picture>
-                    <source media="(min-width: 2400px)" srcset="img/orangebar-hd.png">
-                    <img src="img/orange-bar.png" alt="orangr bar" data-aos="fade-down" data-aos-duration="100"
+            <div class="col-12 px-0 flavour-position">
+                <picture class="flavour-container">
+                    <source media="(min-width: 2400px)" srcset="img/orangebar-hd.png" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="img/orange-bar.png" alt="orangr bar" data-aos="fade-down" data-aos-duration="1000"
                         class="img-fluid orange-bar-img flavour-img alignnone">
                 </picture>
             </div>
@@ -167,16 +166,16 @@
             <div class="row mx-0 justify-content-center  align-items-end pb-5">
                 <button class="btn  p-2 mr-3 rounded-0 flavour-indicators orange-bar border-0" data-flavour="Orange"
                     data-img="img/orange-bar.png" data-flavourclass="orange-bar" data-bgimg="orange-banner"
-                    data-srcset="img/orangebar-hd.png"></button>
+                    data-srcset="img/chocolatebar-hd.png"></button>
                 <button class="btn  p-2 mr-3 rounded-0 flavour-indicators border-0 vanilla-bar" data-flavour="Vanilla"
                     data-img="img/vanilla-bar.png" data-flavourclass="vanilla-bar" data-bgimg="vanilla-banner"
-                    data-srcset="img/orangebar-hd.png"></button>
+                    data-srcset="img/vanillabar-hd.png"></button>
                 <button class="btn  p-2 mr-3 rounded-0 flavour-indicators border-0 mango-bar" data-flavour="Mango"
                     data-img="img/mango-bar.png" data-flavourclass="mango-bar" data-bgimg="mango-banner"
-                    data-srcset="img/orangebar-hd.png"></button>
+                    data-srcset="img/mangobar-hd.png"></button>
                 <button class="btn  p-2 mr-3 rounded-0 flavour-indicators border-0 chocolate-bar"
                     data-flavour="Chocolate" data-img="img/chocolate-bar.png" data-flavourclass="chocolate-bar"
-                    data-bgimg="chocolate-banner" data-srcset="img/orangebar-hd.png"></button>
+                    data-bgimg="chocolate-banner" data-srcset="img/chocolatebar-hd.png"></button>
             </div>
         </div>
     </section>
@@ -594,15 +593,12 @@
 
             // Change flavour details
             $('.flavour-indicators').click(function () {
-                $('.flavour-container').html('<picture><source media="(min-width: 2400px)" srcset="' + $(this).data('srcset') + '" data-aos="fade-down" data-aos-duration="100"><img src="' + $(this).data('img') + '" alt="Bar" class="img-fluid orange-bar-img flavour-img alignnone"  data-aos="fade-down" data-aos-duration="1000"></picture>');
-
-
+                $('.flavour-container').html(' <source media="(min-width: 2400px)" srcset="' + $(this).data('srcset') + '" alt="Bar" data-aos="fade-down" data-aos-duration="1000"><img src="' + $(this).data('img') + '" alt="Bar" data-aos="fade-down" data-aos-duration="1000" class="img-fluid orange-bar-img flavour-img alignnone">');        
 
                 $('.flavour-text').text($(this).data('flavour'));
                 $('.flavour-img').attr('src', $(this).data('img'));
-                $('.flavour-bg').removeClass().addClass('col-12 px-0 flavour-bg ' + $(this).data('flavourclass'));
+                $('.flavour-bg').removeClass().addClass('px-0  flavour-bg  ' + $(this).data('flavourclass'));
                 $('.flavour-bg-img').removeClass().addClass('flavour-bg-img blend ' + $(this).data('bgimg'));
-                AOS.init();
             });
 
         });
