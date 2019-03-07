@@ -255,6 +255,21 @@ a:hover, a:focus, a:active,a:link {
   font-size: 4.5rem;
   font-family: "Karla-Bold";
 }
+@media only screen and (min-width:2560px){
+  .banner-text{
+    font-size: 8rem;
+  }
+  .banner-text-bold{
+    font-size: 8.5rem;
+  }
+  .navbar .nav-link{
+    font-size: 1rem;
+  }
+  .retail-btn{
+    font-size: 2.5rem;
+    padding: 3px;
+  }
+}
 
 
 
