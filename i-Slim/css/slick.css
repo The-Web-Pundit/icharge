@@ -17,9 +17,6 @@
 .blend {
   height:50vh;
 }
-.nature {
-  height:95vh;
-} 
 .btn:focus {
   outline: none !important;
   border: none !important;
@@ -47,9 +44,7 @@
 .blend {
 height:30vh;
 } 
-.nature {
-  height:160vh;
-} 
+
   }
   
   @media (min-width: 768px) and (max-width: 991.98px) {
@@ -69,6 +64,9 @@ height:30vh;
     position: absolute;
     top:35%;
   }
+  .nature {
+    height:95vh;
+  } 
   }
 
   @media (min-width: 992px) and (max-width: 1199.98px) 
@@ -92,6 +90,9 @@ height:30vh;
   .fat {
     margin-top:2rem;
   }
+  .nature {
+    height:95vh;
+  } 
   }
 
   @media (min-width: 1200px) and (max-width:1440px) 
@@ -112,7 +113,9 @@ height:30vh;
     position: absolute;
     top:29%;
   }
- 
+  .nature {
+    height:95vh;
+  } 
 
   }
 
@@ -133,8 +136,12 @@ height:30vh;
   .custom {
     height:100vh;
   }
+  .nature {
+    height:95vh;
+  } 
   }
-  .shadowed {
+
+  .flavour-shadow {
     -webkit-filter: drop-shadow(10px 10px 10px #222222);
     filter: drop-shadow(10px 10px 10px #222222);
 }

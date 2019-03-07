@@ -132,17 +132,12 @@ a:hover {
     background: url("../img/purchase.png") no-repeat scroll center center;
     background-size: cover;
 }
-/* .orange-banner{
+.orange-banner{
     background: url("../img/element-orange.png") no-repeat scroll center center;
     background-size: cover;
     
-} */
-.orange-banner {
-    background-image: url('../img/element-orange.png');
-    background-repeat: repeat;
-    background-position: 50% 0;    
-    padding: 30px;
 }
+
 .mango-banner{
     background: url("../img/mango-element.png") no-repeat scroll center center;
     background-size: cover;
@@ -269,42 +264,6 @@ footer .copy-text {
 .overlay-text{
     font-size: 0.675rem;
 }
-
-
-.img__wrap {
-  position: relative;
-}
-.img__description_layer {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0,0,0,.8);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
-}
-
-.img__wrap:hover .img__description_layer {
-  visibility: visible;
-  opacity: 1;
-}
-
-.img__description {
-  transition: .2s;
-  transform: translateY(1em);
-}
-
-.img__wrap:hover .img__description {
-  transform: translateY(0);
-}
 .testing {
     background-color: #eaceb3;
 }
@@ -313,7 +272,39 @@ footer .copy-text {
     color:#353635;
     font-size:14px;
 }
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
-}
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  .image-container .hover-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.8);
+    color: #fff;
+    opacity: 0;
+    transition: opacity;
+  }
+  .hover-text{
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    vertical-align: middle; 
+  }
+  .hover-text div {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 3.0em;
+    color: white;
+  }
+  .image-container img {
+    vertical-align: middle;
+  }
+  .image-container:hover .hover-text {
+    opacity: 1;
+  }
+  
