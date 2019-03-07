@@ -5,24 +5,24 @@
 }
 
 .slidingVertical span{
-	animation: topToBottom 5s linear infinite 0s;
-	-ms-animation: topToBottom 5s linear infinite 0s;
+	animation: topToBottom 3s linear infinite 0s;
+	-ms-animation: topToBottom 3s linear infinite 0s;
 	-webkit-animation: topToBottom 3s linear infinite 0s;
 	opacity: 0;
 	overflow: hidden;
 	position: absolute;
 }
 .slidingVertical span:nth-child(2){
-	animation-delay: 1.5s;
-	-ms-animation-delay: 1.5s;
-	-webkit-animation-delay: 1.5s;
+	animation-delay: 1.3s;
+	-ms-animation-delay: 1.3s;
+	-webkit-animation-delay: 1.3s;
 }
 
 /*topToBottom Animation*/
 @-moz-keyframes topToBottom{
 	0% { opacity: 0; }
 	5% { opacity: 0; -moz-transform: translateY(-50px); }
-	10% { opacity: 1; -moz-transform: translateY(0px); }
+	15% { opacity: 1; -moz-transform: translateY(0px); }
 	25% { opacity: 1; -moz-transform: translateY(0px); }
 	30% { opacity: 0; -moz-transform: translateY(50px); }
 	80% { opacity: 0; }
@@ -31,7 +31,7 @@
 @-webkit-keyframes topToBottom{
 	0% { opacity: 0; }
 	5% { opacity: 0; -webkit-transform: translateY(-50px); }
-	8% { opacity: 1; -webkit-transform: translateY(0px); }
+	15% { opacity: 1; -webkit-transform: translateY(0px); }
 	25% { opacity: 1; -webkit-transform: translateY(0px); }
 	30% { opacity: 0; -webkit-transform: translateY(50px); }
 	80% { opacity: 0; }
@@ -40,7 +40,7 @@
 @-ms-keyframes topToBottom{
 	0% { opacity: 0; }
 	5% { opacity: 0; -ms-transform: translateY(-50px); }
-	10% { opacity: 1; -ms-transform: translateY(0px); }
+	15% { opacity: 1; -ms-transform: translateY(0px); }
 	25% { opacity: 1; -ms-transform: translateY(0px); }
 	30% { opacity: 0; -ms-transform: translateY(50px); }
 	80% { opacity: 0; }
