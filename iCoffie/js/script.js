@@ -5,7 +5,8 @@ $(document).ready(function () {
 			if 	($(document).scrollTop() > 250) {
 				$('.fixed-top').removeClass('bg-transparent').addClass('bg-white shadow-sm')
 				$('.nav-link').removeClass('text-white')
-				$('.fas.fa-bars').addClass('text-dark');
+				$('.fas.fa-bars').addClass('text-dark')
+				
 				// $('.navbar .nav-link, .fas.fa-bars').addClass('text-dark');
 			} else {
 				$('.fixed-top').removeClass('bg-white shadow-sm').addClass('bg-transparent');
@@ -14,6 +15,7 @@ $(document).ready(function () {
 				$('.fas.fa-bars').removeClass('text-dark');
 				// $('.navbar .nav-link, .fas.fa-bars').removeClass('text-dark');
 			}
+		
 		});
 
 		// Function to make transparent navbar to white background in mobile view on clicking toggler
@@ -31,8 +33,6 @@ $(document).ready(function () {
 		});
 	}
 });
-
-
 
 
 
