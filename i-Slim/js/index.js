@@ -21,7 +21,7 @@ $(document).ready(function () {
 	
 		// Function to make transparent navbar to white background in mobile view on clicking toggler
 		$('.navbar-toggler').click(function () {
-			if ($('.navbar-collapse.collapse').hasClass('show') && $(document).scrollTop() < 150) {
+			if ($('.navbar-collapse.collapse').hasClass('show') && $(document).scrollTop() <150) {
 				// $('.fixed-top').removeClass('bg-transparent').addClass('bg-white shadow-sm');
 				$('.fixed-top').removeClass('bg-white shadow-sm').addClass('bg-transparent');
 				$('.navbar .nav-link, .fas.fa-bars').removeClass('text-dark');
@@ -35,8 +35,7 @@ $(document).ready(function () {
 	}
 });
 
-$('.carousel').carousel({
-  interval: 1000000
-})
+
+
 
 

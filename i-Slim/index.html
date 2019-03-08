@@ -8,10 +8,11 @@
     <title>iSLIM</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
         integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
     <!-- Custom styles -->
     <link href="https://fonts.googleapis.com/css?family=Dosis:500,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
@@ -69,19 +70,21 @@
     <!-- End of Navbar -->
 
     <!-- Start of Home page Flavour Section -->
-    <div class="testing">
-        <section class="nature" id="purchase-now">
+    <section class="testing">
+        <div class="nature" id="purchase-now">
             <div class="container">
                 <div class=" flex-wrap d-flex align-items-center nature">
                     <div class="col-md-6 px-0 col-12 img-container order-2 order-md-1 pt-5 pt-md-0">
-                        <img src="img/home-vanilla-Bar.png" alt="Vanilla bar" class="img-fluid bar-position"
+                        <img src="img/home-vanilla-bar.png" alt="Vanilla bar" class="img-fluid bar-position slim slim-shadoow"
                             data-aos="fade-left" data-aos-duration="2500" style="z-index:9;">
-                        <img src="img/vanilla.png" alt="vanilla" class="img-fluid flavour-shadow" data-aos="fade-right"
-                            data-aos-duration="2500">
+                        <img src="img/vanilla.png" alt="vanilla" class="img-fluid flavour-shadow slim "
+                            data-aos="fade-right" data-aos-duration="2500">
                     </div>
                     <div class="col-md-6  px-0 col-12 align-self-center order-1 order-md-2  pt-5 pt-md-0 mt-5 mt-md-0">
-                        <h1 class="primary-color section-head">The Healthier Indulgence</h1>
-                        <p class="primary-color font-9">A first of its kind management bar, the iSlim Flat
+                        <h1 class="primary-color section-head text-center text-md-left">The Healthier Indulgence</h1>
+                        <p
+                            class="text-justify primary-color font-9 text text-center text-md-left px-3 px-md-0 py-2 py-md-0">
+                            A first of its kind management bar, the iSlim Flat
                             Tummies brings to
                             you a guilt free experience with the best that nature and technology has to
                             offer.
@@ -90,13 +93,15 @@
                             without adding
                             any inches to your waistline.
                         </p>
-                        <button type="button"
-                            class="btn FuturaStd-Heavy  px-5 text-white btn-dark text-white rounded-0">Purchase</button>
+                        <div class="text-center text-md-left">
+                            <button type="button"
+                                class="btn FuturaStd-Heavy  px-5 mx-auto text-white btn-dark text-white rounded-0">Purchase</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <div class="text-center  pb-5 pl-lg-5">
+        </div>
+        <div class="text-center  pb-2 pl-lg-5 pt-5 pt-md-0 mt-5 mt-md-0">
             <button class="btn  btn-dark p-2 rounded-0 border-0 mr-2 indicators  "
                 data-imgbar="img/home-vanilla-bar.png" data-imgingredient="img/vanilla.png" data-class=""></button>
             <button class="btn  p-2 rounded-0 border-0 mr-2 indicators orange-bar" data-imgbar="img/home-orange-bar.png"
@@ -106,7 +111,7 @@
             <button class="btn  p-2 rounded-0 border-0 mr-2 indicators chocolate-bar"
                 data-imgbar="img/home-chocolate-bar.png" data-imgingredient="img/chocolate.png" data-class=""></button>
         </div>
-    </div>
+    </section>
     <!-- End of Home page Flavour section -->
 
 
@@ -136,7 +141,6 @@
             </div>
         </div>
     </section>
-
     <!-- End Of what is iSlim Section -->
 
     <!-- Flavour Section sarts-->
@@ -145,19 +149,19 @@
             <div class="col-12 px-0 blend">
                 <div class="px-0  flavour-bg  orange-bar">
                     <h1 class="text-uppercase text-center Futura-Std-Light-Condensed flavour-text blend orange"
-                    data-aos=" zoom-in" data-aos-duration="1000">Orange</h1>
+                        data-aos=" zoom-in" data-aos-duration="1000">Orange</h1>
                 </div>
             </div>
             <div class="col-12 px-0 blend">
-                <div class="orange-banner flavour-bg-img blend" data-aos=" zoom-in" data-aos-duration="2500">
+                <div class="paralasic flavour-bg-img blend " data-paralasic="0.1">
                 </div>
-
             </div>
             <div class="col-12 px-0 flavour-position">
                 <picture class="flavour-container">
-                    <source media="(min-width: 2400px)" srcset="img/orangebar-hd.png" data-aos="fade-down" data-aos-duration="1000">
+                    <source media="(min-width: 2400px)" class="bar-shadow img-fluid" srcset="img/orangebar-hd.png"
+                        data-aos="fade-down" data-aos-duration="1000">
                     <img src="img/orange-bar.png" alt="orangr bar" data-aos="fade-down" data-aos-duration="1000"
-                        class="img-fluid orange-bar-img flavour-img alignnone">
+                        class="img-fluid orange-bar-img flavour-img alignnone bar-shadow">
                 </picture>
             </div>
         </div>
@@ -165,8 +169,8 @@
         <div class="col-12 button-position">
             <div class="row mx-0 justify-content-center  align-items-end pb-5">
                 <button class="btn  p-2 mr-3 rounded-0 flavour-indicators orange-bar border-0" data-flavour="Orange"
-                    data-img="img/orange-bar.png" data-flavourclass="orange-bar" data-bgimg="orange-banner"
-                    data-srcset="img/chocolatebar-hd.png"></button>
+                    data-img="img/orange-bar.png" data-flavourclass="orange-bar" data-bgimg="paralasic"
+                    data-srcset="img/orangebar-hd.png"></button>
                 <button class="btn  p-2 mr-3 rounded-0 flavour-indicators border-0 vanilla-bar" data-flavour="Vanilla"
                     data-img="img/vanilla-bar.png" data-flavourclass="vanilla-bar" data-bgimg="vanilla-banner"
                     data-srcset="img/vanillabar-hd.png"></button>
@@ -193,10 +197,10 @@
                         dynamics. It helps in preventing the negative gastrointestinal and metabolic side effects often
                         associated with fat blockers.</p>
 
-                    <div class="row justify-content-between">
+                    <div class="row">
 
                         <div class="col-12 col-lg-4 image-container py-4 py-md-2">
-                            <img src="img/sma.png" class="img-fluid">
+                            <img src="img/coleus-forskohlii.png" class="img-fluid" alt="Coleus forskohlii">
                             <div class="hover-text py-3 px-3">
                                 <h6 class="text-uppercase py-3 Futura-Std-Book  font-8">Coleus forskohlii</h6>
                                 <p class="text-justify  Futura-Std-Book">plays a role in traditional Ayurvedic medicine
@@ -211,7 +215,7 @@
                         </div>
 
                         <div class="col-md-12 col-lg-4 image-container py-4 py-md-2">
-                            <img src="img/two.png" class="img-fluid">
+                            <img src="img/sesamum-indicum.png" class="img-fluid" alt="sesamum indicum">
                             <div class="hover-text py-3 px-3">
                                 <h6 class="text-uppercase py-3 Futura-Std-Book  font-8">sesamum indicum</h6>
                                 <p class="text-justify  Futura-Std-Book">plays a role in traditional Ayurvedic medicine
@@ -226,9 +230,9 @@
                         </div>
 
                         <div class="col-md-12 col-lg-4 image-container py-4 py-md-2">
-                            <img src="img/asd.png" class="img-fluid">
+                            <img src="img/salacia-reticulata.png" class="img-fluid" alt="Salacia reticulata">
                             <div class="hover-text py-3 px-3">
-                                <h6 class="text-uppercase py-3 Futura-Std-Book  font-8">Salacia reticulata</h6>
+                                <h6 class="text-uppercase py-3 Futura-Std-Book font-8">Salacia reticulata</h6>
                                 <p class="text-justify  Futura-Std-Book">plays a role in traditional Ayurvedic medicine
                                     as an
                                     anti-diabetic herb with established inhibitory action on alpha glucosidase,
@@ -302,7 +306,7 @@
     <!-- Purchase Section starts -->
     <section class="py-5 custom" id="purchase">
         <div class="row  m-0 py-5 justify-content-center align-items-center custom">
-            <div class="col-lg-5 col-md-8 col-12 mx-auto  p-lg-5 p-md-3 p-sm-2 p-1 text-center">
+            <div class="col-lg-5 col-md-8 col-11 mx-auto  px-3 p-lg-5 p-md-3  p-1 text-center hold">
                 <h4 class="py-3 text-dark fb3 islim">FREE DIET PLAN FOR EVOLUTION SLIMMING TODAY.</h4>
                 <p class="py-3 font-11 fb3 primary-color Futura-Std-Medium">
                     We'll email you a link to download your<br>
@@ -313,15 +317,28 @@
                         <label for="mailid" class="sr-only Futura-Std-Medium font-11">Email</label>
                         <input type="email" name="email" id="mailid" class="form-control" placeholder="Email">
                     </div>
-                    <p class="px-4 are-you h6">Are you...</p>
-                    <div class="form-check">
-                        <input type="radio" id="genderRadio1" name="gender" value="male" class="form-check-input ml-1">
+                    <p class="are-you h6">Are you...</p>
+                    <!-- <div class="form-check">
+                        <input type="radio" id="genderRadio1" name="gender" value="male" class="form-check-input ml-1 ">
                         <label class="form-check-label ml-4 h5 fb3 primary-color" for="genderRadio1">Male</label>
-                    </div>
-                    <div class="form-check">
+                    </div> -->
+                    <!-- <div class="form-check">
                         <input type="radio" id="genderRadio2" name="gender" value="female"
                             class="form-check-input ml-1">
                         <label class="form-check-label ml-4 h5 fb3 primary-color" for="genderRadio2">Female</label>
+                    </div> -->
+                    <div class="pretty p-default p-fill d-block mb-2 mt-4">
+                        <input type="radio" name="color" />
+                        <div class="state p-warning">
+                            <label class="pl-3 fb3 primary-color">Female</label>
+                        </div>
+                    </div>
+
+                    <div class="pretty p-default p-fill">
+                        <input type="radio" name="color" />
+                        <div class="state p-warning">
+                            <label class="pl-3 fb3 primary-color">Male</label>
+                        </div>
                     </div>
                     <div class="px-4 mt-2 text-center">
                         <button type="button"
@@ -338,7 +355,7 @@
 
 
     <!-- Testimonial Section starts -->
-    <section class="py-5" id="testimonial">
+    <section class="py-3 py-md-5" id="testimonial">
         <h2 class="primary-color py-3 text-center islim">WHAT THEY SAID ABOUT US</h2>
         <div class="container align-items-center justify-content-center">
             <div class="row m-0 ">
@@ -399,7 +416,7 @@
                                 <img src="img/Company-Profile-image.png" class="img-fluid" alt="company profile pic">
                             </div>
                             <div class="col-md-6 col-12 mt-md-0">
-                                <h2 class="text-md-left fb3 mb-3 islim dark">COMPANY PROFILE</h2>
+                                <h2 class="text-md-left fb3 mb-3 islim dark py-3 py-md-0">COMPANY PROFILE</h2>
                                 <p class="text-md-left font-9 primary-color">
                                     Established in January 17, 2014 and headquartered at the World Trade Centre,
                                     Bengaluru, IndusViva today, is enriched by 1,80,000 direct sellers across India.
@@ -417,9 +434,9 @@
     <!-- end of Testimonial Section -->
 
     <!-- Contact Us Section starts -->
-    <section class="py-5 text-center" id="contact">
+    <section class="py-3 py-md-5 text-center" id="contact">
         <div class="container">
-            <h2 class="section-heading py-4 islim dark">CONTACT US</h2>
+            <h2 class="section-heading py-2 py-md-4 islim dark">CONTACT US</h2>
             <div class="row p-0 m-0 pt-4">
                 <div class="col-lg-8 col-md-10 col-12 mx-auto">
                     <div class="row p-0 m-0">
@@ -551,18 +568,21 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
     <script src="js/index.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="js/paraLasic.1.1.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
         integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
         crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/parallax.js"></script>
     <script src="js/jquery.morelines.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/core.js"></script>
-    <script>
-        $('.parallax-window').parallax({ imageSrc: 'img/element-orange' });
-    </script>
 
     <script>
         AOS.init();
@@ -587,13 +607,13 @@
 
                 $(this).parent().parent().parent().parent().removeClass().addClass('space ' + bgClass)
 
-                $('.img-container').html('<img src="' + bar + '" alt="Vanilla bar" class="img-fluid bar-position" data-aos="fade-left" data-aos-duration="2500" style="z-index:9;"><img src="' + ingredient + '" alt="vanilla" class="img-fluid flavour-shadow"  data-aos="fade-right" data-aos-duration="2500" >');
+                $('.img-container').html('<img src="' + bar + '" alt="Vanilla bar" class="img-fluid bar-position slim" data-aos="fade-left" data-aos-duration="2500" style="z-index:9;"><img src="' + ingredient + '" alt="vanilla" class="img-fluid flavour-shadow slim"  data-aos="fade-right" data-aos-duration="2500" >');
 
             });
 
             // Change flavour details
             $('.flavour-indicators').click(function () {
-                $('.flavour-container').html(' <source media="(min-width: 2400px)" srcset="' + $(this).data('srcset') + '" alt="Bar" data-aos="fade-down" data-aos-duration="1000"><img src="' + $(this).data('img') + '" alt="Bar" data-aos="fade-down" data-aos-duration="1000" class="img-fluid orange-bar-img flavour-img alignnone">');        
+                $('.flavour-container').html(' <source media="(min-width: 2400px)" srcset="' + $(this).data('srcset') + '" alt="Bar" data-aos="fade-down" data-aos-duration="2000"><img src="' + $(this).data('img') + '" alt="Bar" data-aos="fade-down" data-aos-duration="2000" class="img-fluid bar-shadow orange-bar-img flavour-img alignnone">');
 
                 $('.flavour-text').text($(this).data('flavour'));
                 $('.flavour-img').attr('src', $(this).data('img'));

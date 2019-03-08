@@ -132,26 +132,30 @@ a:hover {
     background: url("../img/purchase.png") no-repeat scroll center center;
     background-size: cover;
 }
-.orange-banner{
-    background: url("../img/element-orange.png") no-repeat scroll center center;
-    background-size: cover;
-    
-}
 
+.paralasic {
+    background: url("../img/element-orange.png")no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
 .mango-banner{
     background: url("../img/mango-element.png") no-repeat scroll center center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .chocolate-banner{
     background: url("../img/element-chocolate.png") no-repeat scroll center center;
     background-size: cover;
+    background-attachment: fixed;
 }
 .vanilla-banner{
     background: url("../img/elements-vanilla.png") no-repeat scroll center center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
-#purchase .col-12 {
+#purchase .hold {
     /* background: rgba(248,249,250, 0.8); */
     background-color: #fff;
     opacity: 0.95;
@@ -307,4 +311,3 @@ footer .copy-text {
   .image-container:hover .hover-text {
     opacity: 1;
   }
-  
