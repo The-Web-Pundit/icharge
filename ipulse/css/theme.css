@@ -28,71 +28,15 @@
 .CircularStd-Medium {
   font-family: "CircularStd-Medium";
 }
-.main-bg {
-  background: -webkit-gradient(linear, left top, left bottom, from(#22192A), to(#040206)) no-repeat;
-  
-}
 
-.header-bg {
-  background-color:#000; 
-}
-.head-color {color:#fff;}
-header {
-  overflow: hidden;
-  position: relative;
-  background: url("../img/company-profile.jpg") no-repeat top center;
-  background-size: cover;
-  height:100vh;
-  opacity: 0.8;
-
-}
 .ipulse-head {
   font-family: 'Montserrat', sans-serif;
   font-weight:300;
 }
-header nav {
-  position: relative;
-  z-index: 3;
-}
-
- .cover-img {
-  position: relative;
-  z-index: 4;
-}
-
- 
 .lap .nav-link {
   font-family: 'Quicksand', sans-serif;
   font-size: .8rem;
   font-weight: 500;
-}
-
-header h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 5.5rem;
-  font-weight: 300;
-}
-
-header h1.landing-text-1 {
-  position: relative;
-  z-index: 3;
-  right: 0;
-}
-
-header h1.landing-text-2 {
-  position: relative;
-  z-index: 3;
-}
-
-.overlay-5 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  overflow: auto;
-  top: 0;
-  left: 0;
-  background: rgba(115, 6, 222, 0.5);
 }
 
 .overlay-7 {
@@ -191,7 +135,7 @@ header h1.landing-text-2 {
 
 .slick-slider .slick-next:before {
   margin-left: 0;
-  content: url("/img/slik-arrow.png");
+  content: url("/img/slick-arrow-long.png");
 }
 
 .company-profile {
@@ -322,88 +266,10 @@ footer .copy-text {
   color:#833561;
 }
 
-@media (max-width: 575.98px) {
-  header h1 {
-    font-size: 24px;
-  }
-  .slick-next
-  {
-      right: 45px;
-  }
-  .novel {
-    display: none;
-  }
-  .custom-scroll {
-    overflow-y: scroll;
-  height: 300px;
-  }
-  .custom-scroll::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  .custom-scroll::-webkit-scrollbar-track {
-    border-radius: 20rem;
-    background: #272727;
-  }
-  
-  .custom-scroll::-webkit-scrollbar-thumb {
-    border-radius: 20rem;
-    background: -webkit-gradient(linear, left top, left bottom, from(#4B2B93), to(#844A9E));
-    background: -webkit-linear-gradient(#4B2B93, #844A9E);
-    background: linear-gradient(#4B2B93, #844A9E);
-  }
-  .main-text {
-    display: none;
-  }
-  
 
-}
-.custom-height {
-  top:15%;
-}
-@media (min-width: 2400px){
-  header h1.landing-text-1 {
-   padding-left:12rem !important;
-  }
-  .slick-next
-{
-    right: 240px;
-}
-  header h1 {
-    font-size: 8rem;
-  }
-  .custom-height {
-    top:30%;
-  }
-}
-@media (min-width: 1400px) and (max-width:2000px){
-  .custom-height {
-    top:34%;
-  }
-}
-@media (min-width: 992px) and (max-width:1024px) {
-  .custom-height {
-    top:34%;
-  }
-  header h1 {
-    font-size: 3rem;
-  }
-  header h1.landing-text-1 {
-    padding-left:4rem !important;
-   }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  header h1 {
-    font-size: 3.4rem;
-  }
-  .custom-height {
-    top:36%;
-    right:18%;
-  }
-  .slick-next
-  {
-      right: 240px;
-  }
-}
+
+
+
+
 
 
