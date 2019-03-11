@@ -1,111 +1,180 @@
-
 /* font faces */
 @font-face {
-    font-family: "CircularStd-Black";
-    src: url(../fonts/CircularStd-Black.otf);
-}
-@font-face{
-    font-family: "CircularStd-Bold";
-    src: url(../fonts/CircularStd-Bold.otf)
+  font-family: "CircularStd-Black";
+  src: url(../fonts/CircularStd-Black.otf);
 }
 @font-face {
-    font-family: "CircularStd-Medium";
-    src: url(../fonts/CircularStd-Medium.otf);
+  font-family: "CircularStd-Bold";
+  src: url(../fonts/CircularStd-Bold.otf);
 }
 @font-face {
-    font-family: "CircularStd-Book";
-    src: url(../fonts/CircularStd-Book.otf);
+  font-family: "CircularStd-Medium";
+  src: url(../fonts/CircularStd-Medium.otf);
 }
 @font-face {
-    font-family: "Dosis-Bold";
-    src: url(../fonts/Dosis-Bold.ttf);
+  font-family: "CircularStd-Book";
+  src: url(../fonts/CircularStd-Book.otf);
 }
 @font-face {
-    font-family: "Ubuntu-Medium";
-    src: url(../fonts/Ubuntu-Medium.ttf);
+  font-family: "Dosis-Bold";
+  src: url(../fonts/Dosis-Bold.ttf);
 }
 @font-face {
-    font-family: "Montserrat-Light";
-    src: url(../fonts/Montserrat-Light.ttf);
+  font-family: "Ubuntu-Medium";
+  src: url(../fonts/Ubuntu-Medium.ttf);
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(../fonts/Montserrat-Light.ttf);
 }
 /* End of font face */
 
 /* Font styles */
 
-.std-black{
-    font-family: "CircularStd-Black", sans-serif;
-  }
-  .std-bold{
-    font-family: "CircularStd-Bold",  sans-serif;
-  }
-  .std-medium{
-    font-family: "CircularStd-Medium", sans-serif;
-  }
-  .std-book{
-    font-family: "CircularStd-Book", sans-serif;
-  }
-  .monst-light {
-    font-family: "Montserrat-Light";
-  }
+.std-black {
+  font-family: "CircularStd-Black", sans-serif;
+}
+.std-bold {
+  font-family: "CircularStd-Bold", sans-serif;
+}
+.std-medium {
+  font-family: "CircularStd-Medium", sans-serif;
+}
+.std-book {
+  font-family: "CircularStd-Book", sans-serif;
+}
+.monst-light {
+  font-family: "Montserrat-Light";
+}
 
 /* End of font styles */
-
 
 /* navbar styles */
 
 .icharge-nav li a {
-   font-family: "Ubuntu-Medium";
+  font-family: "Ubuntu-Medium";
 }
 /* end of navbar styles */
 
 /* text colors */
 .disabled {
-    color: #343434;
+  color: #343434;
 }
 
 /* End of text colors */
 
 body {
-    font-size: 0.8rem;
-    font-family: "Montserrat-Light";
+  font-size: 0.8rem;
+  font-family: "Montserrat-Light";
 }
 #home {
-    background-image: url(/img/banner.png);
+  background-image: url(/img/banner.jpg);
+  background-size: cover;
 }
-.text-gradient{
-    font-size: 4rem;
-    background-image: linear-gradient(#a8cf3a, #41bca8);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    font-family: "Dosis-Bold";
+.text-gradient {
+  font-size: 4rem;
+  background-image: linear-gradient(#a8cf3a, #41bca8);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Dosis-Bold";
 }
 .letter-spacing-sm {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
-.letter-spacing-lg{
-    letter-spacing: 1.3rem;
-}
-.section {
-    background-color: #aeaeae;
+.letter-spacing-lg {
+  letter-spacing: 1.3rem;
 }
 .ingr-head {
-    font-size: 1.125rem;
+  font-size: 1.125rem;
 }
 .animate-move {
-    -webkit-animation: action 1s infinite  alternate;
-    animation: action 1s infinite  alternate;
+  -webkit-animation: action 1s infinite alternate;
+  animation: action 1s infinite alternate;
 }
 .bottom-0 {
-    bottom: 0;
+  bottom: 0;
 }
 .purchase-btn {
-    background: linear-gradient(to right, #a8cf3a , #41bca8)
+  background: linear-gradient(to right, #a8cf3a, #41bca8);
 }
 @-webkit-keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 @keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.overlap-can {
+  position: absolute;
+  top: 25%;
+  right: 3%;
+}
+
+#recharge-and-conquer {
+  background-image: url(../img/Banner-02.jpg);
+  background-size: cover;
+}
+
+section {
+  background-color: #303030;
+}
+
+.footer {
+  background-color: #000000;
+}
+
+body {
+  color: #ffffff;
+  font-family: "Montserrat-Light";
+  font-size: 0.8rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+.second h1 {
+    font-size: 2rem;
+}
+
+hr {
+    border-color: #3EB6D5;
+    width: 3%;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
+
+.conquer-hr {
+    position: relative;
+    width: 80%;
+    left: 0;
+    margin-left: 0;
+}
+
+.eight-hr {
+    position: relative;
+    width: 40%;
+    left: auto;
+}
+
+.contact-seller-button {
+    color: #ffffff;
+    background-color: #303030;
+}
+
+.contact-seller {
+    background: linear-gradient(to right, #a8cf3a, #41bca8); 
+    padding: 0.1rem;
 }
