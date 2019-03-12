@@ -81,12 +81,14 @@ body {
 .letter-spacing-sm {
   letter-spacing: 2px;
 }
-.letter-spacing-lg {
-  letter-spacing: 1.3rem;
-}
 .ingr-head {
   font-size: 1.125rem;
 }
+
+.fourth .ingr-head:first-child {
+  letter-spacing: 1.3rem;
+}
+
 .animate-move {
   -webkit-animation: action 1s infinite alternate;
   animation: action 1s infinite alternate;
@@ -125,12 +127,42 @@ body {
   background-size: cover;
 }
 
-section {
-  background-color: #303030;
+.third {
+  background-color: #2a2a2a;
+}
+
+.fourth {
+  background-color: #262527;
+}
+
+.fifth {
+  background-color: #202120;
+}
+
+.sixth {
+  background-color: #19191a;
+}
+
+.seventh {
+  background-color: #151515;
+}
+
+.eight {
+  background-color: #0a0a0a;
+}
+
+.benefits {
+  background-color: #070707;
 }
 
 .footer {
   background-color: #000000;
+}
+
+.company-profile,
+.references,
+.contact-section {
+  background-color: #070707;
 }
 
 body {
@@ -140,41 +172,87 @@ body {
 }
 
 h1 {
-    font-size: 1.25rem;
-    text-transform: uppercase;
+  font-size: 1.25rem;
+  text-transform: uppercase;
 }
 
-.second h1 {
-    font-size: 2rem;
+.second h1,
+.benefits h1,
+.company-profile h1,
+.references h1 {
+  font-size: 2rem;
+  letter-spacing: 4.3px;
 }
 
 hr {
-    border-color: #3EB6D5;
-    width: 3%;
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
+  border-color: #3eb6d5;
+  width: 3%;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
 }
 
 .conquer-hr {
-    position: relative;
-    width: 80%;
-    left: 0;
-    margin-left: 0;
+  position: relative;
+  width: 80%;
+  left: 0;
+  margin-left: 0;
 }
 
 .eight-hr {
-    position: relative;
-    width: 40%;
-    left: auto;
+  position: relative;
+  width: 40%;
+  left: auto;
 }
 
 .contact-seller-button {
-    color: #ffffff;
-    background-color: #303030;
+  color: #ffffff;
+  background-color: #070707;
+}
+
+.second .contact-seller-button {
+  background-color: #303030;
 }
 
 .contact-seller {
-    background: linear-gradient(to right, #a8cf3a, #41bca8); 
-    padding: 0.1rem;
+  background: linear-gradient(to right, #a8cf3a, #41bca8);
+  padding: 0.1rem;
+}
+
+.contact-section h1 {
+  color: #393a3a;
+  font-size: 3rem;
+  letter-spacing: 2rem;
+}
+
+.contact-section input,
+.contact-section textarea {
+  background-color: transparent;
+  border-bottom: 1px solid #3eb6d5 !important;
+  color: #616161;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  background-color: transparent;
+  box-shadow: none;
+} 
+
+.contact-section .details {
+  color: #616161;
+  font-size: 1rem;
+}
+
+.footer,
+.footer a {
+  color: #434343;
+  font-size: 0.7rem;
+}
+
+.footer h6 {
+  color: #8c8e8f;
+}
+
+.footer i:first-child {
+  color: red;
 }
