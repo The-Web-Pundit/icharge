@@ -265,7 +265,9 @@ footer .copy-text {
 .highlight {
   color:#833561;
 }
-
+#fp-nav ul, .fp-slidesNav ul {
+  display: none;
+}
 
 
 
