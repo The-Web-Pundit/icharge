@@ -1,23 +1,6 @@
 (function ( $ ) {
 
-/* morelines - simple to use, if you need to expand the text by various line - this is it
- *
- * <script>
- *   $(function() {
- *     $('.js-description_readmore').moreLines({
- *       linecount: 2, 
- *       baseclass: 'b-description',
- *       basejsclass: 'js-description',
- *       classspecific: 'readmore',
- *       buttontxtmore: "read more",
- *       buttontxtless: "read less",
- *       animationspeed: 250 
- *     });
- *   });
- * </script>
- * 
- * V.Tsurule
- */
+
 	$.fn.moreLines = function (options) {
 
 	"use strict";

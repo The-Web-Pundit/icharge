@@ -1,7 +1,7 @@
 
 jQuery(window).on('scroll', function () {
 
-	/* PARALLAX EFFECT ON HEADER */
+	
 	$(window).scroll(function() {
 		var scrollTop = $(window).scrollTop();
 		var paralasicValue = $('.paralasic,.mango-banner,.vanilla-banner,.chocolate-banner').attr('data-paralasic');
