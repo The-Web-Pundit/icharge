@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/fullpage.css">
 
     <!-- Custom Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
@@ -45,10 +46,11 @@
         </div>
     </nav>
 
+    <div id="fullpage">
 
-    <header class="pb-5" id="home">
-        <div class="overlay-7"></div>
-        <div class="d-flex justify-content-center  mt-5 py-5 cover-img text-center pr-5 pr-md-0">
+    <header class="pb-5 section" id="home">
+        <div class="overlay-7"></div>    
+        <div class="d-flex justify-content-center  mt-5 py-5 cover-img text-center pr-5 pr-md-0" >
             <img src="img/banner-ipulse.png" class="img-fluid">
             <h1 class="landing-text-1 text-white">Holistic</h1>
             <h1 class="landing-text-2 text-white">Wellness</h1>
@@ -89,8 +91,6 @@
                     </button>
                 </div>
             </div>
-        </div>
-        </div>
     </section>
 
     <section class="section" id="story">
@@ -426,7 +426,7 @@
         </div>
     </section>
 
-    <section class="section header-bg">
+    <section class="section header-bg fp-auto-height">
         <footer class="container py-5">
             <div class="row p-0 m-0">
                 <div class="col-md-8 col-12 mx-auto">
@@ -476,6 +476,8 @@
     </section>
     </main>
 
+</div>
+
     <!-- End of Page piling sections -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -494,6 +496,21 @@ var togSrc = [ 'img/down-arrow.png','img/upside.png' ];
 $(".tog").click(function() {
    this.src =  togSrc.reverse()[0];
 });
+</script>
+    <script src="js/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            anchors: ['firstPage', 'secondPage', '3rdPage'],
+            sectionsColor: [''],
+            navigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['First page', 'Second page', 'Third and last page'],
+            responsiveWidth: 900,
+            afterResponsive: function(isResponsive){
+            }
+    
+        });
+    </script>
 
 </script>
 </body>
