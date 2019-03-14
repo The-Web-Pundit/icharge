@@ -6,9 +6,9 @@
  *
  * Copyright (C) 2016 alvarotrigo.com - A project by Alvaro Trigo
  */
+
 (function ($, document, window, undefined) {
     'use strict';
-
     $.fn.pagepiling = function (custom) {
         var PP = $.fn.pagepiling;
         var container = $(this);

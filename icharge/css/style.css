@@ -53,6 +53,7 @@
 
 .icharge-nav li a {
   font-family: "Ubuntu-Medium";
+  color: #ffffff;
 }
 /* end of navbar styles */
 
@@ -123,7 +124,7 @@ body {
 }
 
 #recharge-and-conquer {
-  background-image: url(../img/Banner-02.jpg);
+  background-image: url(../img/banner2.jpg);
   background-size: cover;
 }
 
@@ -219,10 +220,22 @@ hr {
   padding: 0.1rem;
 }
 
+.form-send {
+  background: linear-gradient(to right, #a8cf3a, #41bca8);
+  padding: 0.1rem;
+  width: fit-content;
+}
+
 .contact-section h1 {
   color: #393a3a;
   font-size: 3rem;
   letter-spacing: 2rem;
+}
+
+@media screen and (max-width:425px) {
+  .contact-section h1 {
+    letter-spacing: 1rem;
+  }
 }
 
 .contact-section input,
@@ -253,6 +266,18 @@ hr {
   color: #8c8e8f;
 }
 
-.footer i:first-child {
-  color: red;
+.fa-facebook {
+  color: #B5D652;
+}
+
+.fa-twitter {
+  color: #8FD185;
+}
+
+.fa-instagram {
+  color: #234339;
+}
+
+.fa-linkedin {
+  color: #45C9E2;
 }
