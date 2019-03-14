@@ -206,7 +206,8 @@ hr {
   left: auto;
 }
 
-.contact-seller-button {
+.contact-seller-button,
+.contact-seller-button:hover{
   color: #ffffff;
   background-color: #070707;
 }
@@ -217,12 +218,12 @@ hr {
 
 .contact-seller {
   background: linear-gradient(to right, #a8cf3a, #41bca8);
-  padding: 0.1rem;
+  padding: 0.12rem;
 }
 
 .form-send {
   background: linear-gradient(to right, #a8cf3a, #41bca8);
-  padding: 0.1rem;
+  padding: 0.12rem;
   width: fit-content;
 }
 
@@ -275,9 +276,20 @@ hr {
 }
 
 .fa-instagram {
-  color: #234339;
+  color: #45C9E2;
 }
 
 .fa-linkedin {
   color: #45C9E2;
+}
+
+/* kruthi */
+
+@media only screen and (max-width:425px){
+  .contact-section h1 {
+    font-size: 2rem;
+  }
+  .second h1{
+    font-size: 1.25rem;
+  }
 }
