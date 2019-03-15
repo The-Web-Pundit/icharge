@@ -521,10 +521,6 @@
 
     <!-- End of Page piling sections -->
 
-
-
-
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
         integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
@@ -534,6 +530,14 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/slick.js"></script>
     <script src="js/theme.js"></script>
+<script>
+
+var togSrc = [ 'img/down-arrow.png','img/upside.png' ];
+
+$(".tog").click(function() {
+   this.src =  togSrc.reverse()[0];
+});
+</script>
     <script src="js/fullpage.js"></script>
     <script>
 
@@ -557,6 +561,7 @@
         });
     </script>
 
+</script>
 </body>
 
 </html>
