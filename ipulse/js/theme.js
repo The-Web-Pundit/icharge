@@ -4,7 +4,7 @@ $(document).ready(function() {
       dots: false,
       infinite: true,
       centermode:false,
-      slidesToShow: 4.8,
+      slidesToShow: 4,
       slidesToScroll: 1,
       rows: 0,
       responsive: [
