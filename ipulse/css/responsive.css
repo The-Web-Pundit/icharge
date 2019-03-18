@@ -8,18 +8,18 @@ body {
   right:35%;
   top:24%;
 }
-header h1.landing-text-1 {
+.holistic h1.landing-text-1 {
   z-index: 2;
   right: 0;
   left: -29%;
 }
 
-header h1.landing-text-2 {
+.holistic h1.landing-text-2 {
   z-index: 4;
   right: -38%;
   left: 0;
 }
-header {
+.holistic {
   overflow: hidden;
   position: relative;
   background: url("../img/company-profile.jpg") no-repeat top center;
@@ -35,120 +35,162 @@ header {
   left: 0;
   background: rgba(115, 6, 222, 0.5);
 }
-header nav {
+.holistic nav {
   position: relative;
   z-index: 3;
 }
 
-header .cover-img {
+ .cover-img {
   position: relative;
 }
 
-header .cover-img img {
+ .cover-img  {
   z-index: 3;
 }
 
-header .nav-link {
+.holistic h1 {
   font-family: 'Quicksand', sans-serif;
-  font-size: .8rem;
-  font-weight: 500;
-}
-
-header h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-weight:300;
   position: absolute;
   font-size: 5.5rem;
-  font-weight: 300;
   top: 35%;
   bottom: 0;
 }
 
-header h1.landing-text-1 {
+.holistic h1.landing-text-1 {
   z-index: 2;
   right: 0;
   left: -29%;
 }
 
-header h1.landing-text-2 {
+.holistic h1.landing-text-2 {
   z-index: 4;
   right: -38%;
   left: 0;
 }
 
 .overlay-7 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-  overflow: auto;
-  top: 0;
-  left: 0;
-  background: rgba(115, 6, 222, 0.7);
+
+  background: rgb(115, 64, 233, 0.7);
 }
 
-
-@media (max-width: 575.98px) {
-  header h1 {
-    font-size: 24px;
+@media (max-width:360px) {
+  .holistic h1 {
+    font-size:2rem;
   }
-  header h1.landing-text-1 {
-    left: -48%;
+  .holistic h1.landing-text-1 {
+   right:26%;
   }
-  header h1.landing-text-2 {
-    right: -55%;
+  .holistic h1.landing-text-2 {
+   left:21%;
   }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  header h1 {
-    font-size: 32px;
-  }
-  header h1.landing-text-1 {
-    left: -30%;
-  }
-  header h1.landing-text-2 {
-    right: -50%;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-  header h1 {
-    font-size: 3rem;
-  }
-  header h1.landing-text-1 {
-    left: -31%;
-  }
-  header h1.landing-text-2 {
-    right: -46%;
+  .holistic h1 {
+  top:43%;
   }
   .can-position {
-    right:18% ;
-    top:24% ;
+    right:20% ;
+    top:25% ;
+  }
+}
+
+@media (min-width: 361px) and (max-width:575.98px) {
+
+  .holistic h1 {
+    font-size:2.4rem;
+  }
+  .holistic h1.landing-text-1 {
+   right:22%;
+  }
+  .holistic h1.landing-text-2 {
+   left:15%;
+  }
+  .holistic h1 {
+  top:43%;
+  }
+  .can-position {
+    right:30% ;
+    top:25% ;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .holistic h1 {
+    font-size:4.8rem;
+  }
+  .holistic h1.landing-text-1 {
+   right:15%;
+  }
+  .holistic h1.landing-text-2 {
+   left:15%;
+  }
+  .holistic h1 {
+  top:43%;
+  }
+  .can-position {
+    right:20% ;
+    top:25% ;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  header h1 {
-    font-size: 4.2rem;
+  .holistic h1 {
+    font-size:4.8rem;
   }
-  header h1.landing-text-1 {
-    left: -31%;
+  .holistic h1.landing-text-1 {
+   right:3%;
   }
-  header h1.landing-text-2 {
-    right: -42%;
+  .holistic h1.landing-text-2 {
+   left:3%;
+  }
+  .holistic h1 {
+  top:43%;
+  }
+  .can-position {
+    right:22% ;
+    top:24% ;
+  }
+}
+
+@media (min-width: 1200px) and (max-width:2399.98px) {
+  .holistic h1 {
+    font-size: 7rem;
+  }
+  .holistic h1.landing-text-1 {
+   right:3%;
+  }
+  .holistic h1.landing-text-2 {
+   left:1%;
+  }
+  .holistic h1 {
+  top:38%;
   }
 }
 
 @media (min-width: 2400px) {
-  header h1 {
-    font-size: 10rem;
+  .holistic h1 {
+    font-size: 13rem;
   }
-  header h1.landing-text-1 {
-    left: -27%;
+  .holistic h1.landing-text-1 {
+   right:3%;
   }
-  header h1.landing-text-2 {
-    right: -31%;
+  .holistic h1.landing-text-2 {
+   left:3%;
+  }
+  .holistic h1 {
+  top:38%;
+  }
+  .company-profile p {
+    font-size:1rem !important;
+  }
+  .card {
+    height:500px;
   }
 }
 
 
+.animate-move {
+  -webkit-animation: action 10s infinite alternate;
+  animation: action 10s infinite alternate;
+}

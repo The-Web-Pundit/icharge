@@ -35,7 +35,7 @@
 }
 .lap .nav-link {
   font-family: 'Quicksand', sans-serif;
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: 500;
 }
 
@@ -47,7 +47,8 @@
   overflow: auto;
   top: 0;
   left: 0;
-  background: rgba(115, 6, 222, 0.7);
+  background: rgba(178, 133, 223, 0.7);
+
 }
 
 .font-8 {
@@ -269,7 +270,10 @@ footer .copy-text {
   display: none;
 }
 
-
+.card {
+  height: 350px;
+  width:350px;
+}
 
 
 
