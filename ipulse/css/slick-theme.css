@@ -97,7 +97,7 @@
 
 .slick-next
 {
-    right: 100px;
+    right: 0px;
 }
 [dir='rtl'] .slick-next
 {

@@ -195,7 +195,7 @@ body {
 
 .slick-next
 {
-    right: 190px;
+    right: 5px;
 }
 }
 .card-img {
@@ -205,6 +205,23 @@ body {
   display: inherit !important;
 }
 
+@media only screen and (max-width: 425px) {
+  .holistic h1.landing-text-1 {
+    right:16%;
+   }
+   .holistic h1.landing-text-2 {
+    left:25%;
+   }
+}
+
+@media only screen and (min-width: 2560px) {
+  .holistic h1.landing-text-1 {
+    right:0%;
+   }
+   .holistic h1.landing-text-2 {
+    left:0%;
+   }
+}
 /* .animate-move {
   -webkit-animation: action 10s infinite alternate;
   animation: action 10s infinite alternate;

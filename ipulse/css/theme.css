@@ -140,6 +140,10 @@
   margin-left: 0;
   content: url("/img/slick-arrow-long-1.png");
 }
+.slick-slider .slick-prev:before {
+  margin-left: 0;
+  content: url("/img/slick-arrow-left.png");
+}
 
 .company-profile {
   overflow-y: scroll;
