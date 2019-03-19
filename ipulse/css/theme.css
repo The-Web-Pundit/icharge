@@ -106,12 +106,14 @@
 }
 
 .slick-slider .card-title {
-  font-size: .95rem;
+  font-size: 1rem;
   letter-spacing: .48px;
   font-weight: 500;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "CircularStd-Medium";
 }
-
+.card-text {
+  font-family: "CircularStd-Book";
+}
 .slick-slider .slick-slide {
   margin: 0 1rem;
 }
@@ -260,7 +262,7 @@ footer .copy-text {
 .expand {
   color:#343434;
   font-family: "CircularStd-Medium";
-  font-size:0.7rem;
+  font-size:0.9rem;
   letter-spacing:1px;
 }
 .highlight {
@@ -270,12 +272,24 @@ footer .copy-text {
   display: none;
 }
 
-.card {
+/* .card {
   height: 350px;
   width:350px;
+} */
+.cover-img{
+  animation-duration: 2s !important;
 }
-
-
+.purchase-btn{
+  font-family: "CircularStd-Bold";
+}
+@media only screen and (min-width:2560px) {
+  .section-heading, .about-heading{
+font-size: 2.5rem;
+  }
+  html{
+    font-size: 1.125rem;
+  }
+}
 
 
 

@@ -139,7 +139,7 @@ body {
     font-size:4.8rem;
   }
   .holistic h1.landing-text-1 {
-   right:3%;
+   right:1%;
   }
   .holistic h1.landing-text-2 {
    left:3%;
@@ -158,7 +158,7 @@ body {
     font-size: 7rem;
   }
   .holistic h1.landing-text-1 {
-   right:3%;
+   right:1%;
   }
   .holistic h1.landing-text-2 {
    left:1%;
@@ -173,10 +173,10 @@ body {
     font-size: 13rem;
   }
   .holistic h1.landing-text-1 {
-   right:3%;
+   right:6%;
   }
   .holistic h1.landing-text-2 {
-   left:3%;
+   left:6%;
   }
   .holistic h1 {
   top:38%;
@@ -184,13 +184,14 @@ body {
   .company-profile p {
     font-size:1rem !important;
   }
-  .card {
-    height:500px;
-  }
 }
-
-
-.animate-move {
+.card-img {
+  width: auto;
+}
+.slick-slide img{
+  display: inherit !important;
+}
+/* .animate-move {
   -webkit-animation: action 10s infinite alternate;
   animation: action 10s infinite alternate;
-}
+} */
