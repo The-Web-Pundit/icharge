@@ -1,34 +1,34 @@
 $(document).ready(function() {
-  $(".fruit-slider")
-    .slick({
-      dots: false,
-      infinite: true,
-      centermode:false,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      rows: 0,
-      responsive: [
-        {
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 3
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1.5
-          }
-        },
-        {
-          breakpoint: 576,
-          settings: {
-            dots:false,
-            slidesToShow: 1
-          }
-        }
-      ]
-    })
+  // $(".fruit-slider")
+  //   .slick({
+  //     dots: false,
+  //     infinite: true,
+  //     centermode:false,
+  //     slidesToShow: 4,
+  //     slidesToScroll: 1,
+  //     rows: 0,
+  //     responsive: [
+  //       {
+  //         breakpoint: 992,
+  //         settings: {
+  //           slidesToShow: 3
+  //         }
+  //       },
+  //       {
+  //         breakpoint: 768,
+  //         settings: {
+  //           slidesToShow: 1.5
+  //         }
+  //       },
+  //       {
+  //         breakpoint: 576,
+  //         settings: {
+  //           dots:false,
+  //           slidesToShow: 1
+  //         }
+  //       }
+  //     ]
+  //   })
   
 	
 });$(document).ready(function () {

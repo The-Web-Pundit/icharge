@@ -97,7 +97,7 @@
 
 .slick-next
 {
-    right: 150px;
+    right: 100px;
 }
 [dir='rtl'] .slick-next
 {
@@ -201,4 +201,10 @@
 {
     opacity: .75;
     color: black;
+}
+
+@media only screen and (max-width:425px){
+  .slick-next{
+    right: 18px !important;
+  }
 }

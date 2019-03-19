@@ -166,6 +166,11 @@ body {
   .holistic h1 {
   top:38%;
   }
+  .card{
+    /* height: 350px !important; */
+    display: flex;
+    align-items: stretch !important;
+  }
 }
 
 @media (min-width: 2400px) {
@@ -184,6 +189,14 @@ body {
   .company-profile p {
     font-size:1rem !important;
   }
+  .card{
+    height: 300px !important;
+  }
+
+.slick-next
+{
+    right: 190px;
+}
 }
 .card-img {
   width: auto;
@@ -191,6 +204,7 @@ body {
 .slick-slide img{
   display: inherit !important;
 }
+
 /* .animate-move {
   -webkit-animation: action 10s infinite alternate;
   animation: action 10s infinite alternate;

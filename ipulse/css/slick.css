@@ -117,3 +117,6 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.row.align-items-stretch .card:only-of-type{
+    height: 100%;
+}
