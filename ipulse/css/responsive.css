@@ -241,6 +241,11 @@ body {
     left:-9%;
    }
 }
+@media (min-width:1600px) and (max-width:2560px){
+ .cards {
+   min-height: 350px !important;
+ }
+}
 @media (min-width:900px) and (max-width:1600px){
   .holistic h1.landing-text-1 {
     right:0%;
