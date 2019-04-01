@@ -46,13 +46,11 @@
 .monst-light {
   font-family: "Montserrat-Light";
 }
-
 /* End of font styles */
 
 /* navbar styles */
-
 .icharge-nav li a {
-  font-family: "Ubuntu-Medium";
+  font-family: "Ubuntu-Medium" !important;
   color: #ffffff;
 }
 /* end of navbar styles */
@@ -61,7 +59,6 @@
 .disabled {
   color: #343434;
 }
-
 /* End of text colors */
 
 body {
@@ -73,8 +70,8 @@ body {
   background-size: cover;
 }
 .text-gradient {
-  font-size: 4rem;
-  background-image: linear-gradient(#a8cf3a, #41bca8);
+  font-size: 3.5rem;
+  background: linear-gradient(to right, #a8cf3a 35%, #41bca8 50%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-family: "Dosis-Bold";
@@ -86,7 +83,7 @@ body {
   font-size: 1.125rem;
 }
 
-.fourth .ingr-head:first-child {
+ .ingr-head:first-child {
   letter-spacing: 1.3rem;
 }
 
@@ -124,46 +121,7 @@ body {
 }
 
 #recharge-and-conquer {
-  background-image: url(../img/banner2.jpg);
-  background-size: cover;
-}
-
-.third {
-  background-color: #2a2a2a;
-}
-
-.fourth {
-  background-color: #262527;
-}
-
-.fifth {
-  background-color: #202120;
-}
-
-.sixth {
-  background-color: #19191a;
-}
-
-.seventh {
-  background-color: #151515;
-}
-
-.eight {
-  background-color: #0a0a0a;
-}
-
-.benefits {
-  background-color: #070707;
-}
-
-.footer {
-  background-color: #000000;
-}
-
-.company-profile,
-.references,
-.contact-section {
-  background-color: #070707;
+background-color:#212121;
 }
 
 body {
@@ -179,7 +137,7 @@ h1 {
 
 .second h1,
 .benefits h1,
-.company-profile h1,
+.company h1,
 .references h1 {
   font-size: 2rem;
   letter-spacing: 4.3px;
@@ -229,8 +187,8 @@ hr {
 
 .contact-section h1 {
   color: #393a3a;
-  font-size: 3rem;
-  letter-spacing: 2rem;
+  font-size: 2rem;
+  letter-spacing: 1rem;
 }
 
 @media screen and (max-width:425px) {
@@ -238,7 +196,6 @@ hr {
     letter-spacing: 1rem;
   }
 }
-
 .contact-section input,
 .contact-section textarea {
   background-color: transparent;
@@ -283,8 +240,6 @@ hr {
   color: #45C9E2;
 }
 
-/* kruthi */
-
 @media only screen and (max-width:425px){
   .contact-section h1 {
     font-size: 2rem;
@@ -293,3 +248,99 @@ hr {
     font-size: 1.25rem;
   }
 }
+
+li {
+  color:#B5D652;
+  }
+  li p {color: #fff;}
+
+      @media only screen and (max-width:900px){
+        
+        .ingr-head {
+          font-size: 0.8rem !important;
+        }
+        .fourth .ingr-head:first-child {
+          letter-spacing: 1rem;
+        }
+        .man {
+          width:80%;
+        }
+        .text-gradient {
+          font-size: 2.5rem;}
+          .hide {
+            overflow-x:hidden !important;
+          }
+          html { overflow-x: hidden !important; }
+          body { overflow-x: hidden !important; }
+
+          body {
+            background: -webkit-gradient(linear,  top,  bottom, from(#19191a), to(#19191a)) no-repeat;
+            background: -webkit-linear-gradient(#262527, #19191a) no-repeat;
+           
+          }
+      }
+
+      @media only screen and (min-width:1024px){
+
+      .fullpage-wrapper {
+        width: 100%!important;
+        transform: none!important;
+      }
+      .fp-section 
+      {
+        width: 100%!important;
+        position: absolute;
+        left: 0;
+        top: 0;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 0;
+        transition: all 0s ease;
+      }
+      
+      .fp-section.active {
+        visibility: visible;
+        opacity: 1;
+        z-index: 1;
+      }
+
+    }
+       
+        @media (min-width:768px) and (max-width:1024px){
+          .man {
+            width:98%;
+          }
+        }
+        .font-8{
+          font-size:0.9rem;
+        }
+
+        .third {
+          background-color: #1d1d1d;
+        }
+        
+        .fourth,
+        .fifth,
+        .sixth,
+        .seventh {
+          background-color: #171717;
+        }
+        
+        .eight {
+          background-color: #111111;
+        }
+        
+        .company,
+        .references,
+         .benefits
+         {
+          background-color: #0f0f0f;}
+        
+          /* .contact-section {
+            background: linear-gradient(to bottom, #0b0b0b 0%, #0b0b0b 58%, #000000 58%, #000000 100% );} */
+       
+
+        a {
+    text-decoration: none !important;
+}
+

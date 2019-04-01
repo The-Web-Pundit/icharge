@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
@@ -12,11 +11,9 @@
     <!-- Custom fonts -->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" />
-    <!-- End of Custom fonts -->
 
-    <link rel="stylesheet" type="text/css" href="/css/fullpage.min.css" />
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
     <link rel="stylesheet" href="css/style.css">
 
     <title>iCharge</title>
@@ -25,89 +22,93 @@
 <body>
 
     <!-- header & Navbar starts -->
-    <header class="">
-        <nav class="navbar navbar-dark icharge-nav bg-transparent navbar-expand-lg fixed-top">
-            <div class="container">
-                <a href="/" class="navbar-brand py-2">
-                    <img src="img/icharge-logo.png" class="img-fluid" alt="iCharge">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarMain">
-                    <ul class="navbar-nav ml-auto text-uppercase">
-                        <li class="nav-item px-lg-2"><a class="nav-link text-white" href="#home">Home</a></li>
-                        <li class="nav-item px-lg-2"><a class="nav-link text-white" href="#about">ABOUT</a></li>
-                        <li class="nav-item px-lg-2"><a class="nav-link text-white" href="#contact-seller">CONTACT
-                                SELLER</a>
-                        </li>
-                        <li class="nav-item px-lg-2"><a class="nav-link text-white" href="#purchase-now">PURCHASE
-                                NOW</a></li>
-                        <li class="nav-item px-lg-2"><a class="nav-link text-white"
-                                href="#company-profile">TESTIMONIAL</a></li>
-                        <li class="nav-item px-lg-2"><a class="nav-link text-white" href="#contact">CONTACT</a></li>
-                    </ul>
-                </div>
+
+    <nav class="navbar navbar-dark icharge-nav bg-transparent navbar-expand-lg fixed-top icharge-nav">
+        <div class="container">
+            <a href="/" class="navbar-brand py-2">
+                <img src="img/icharge-logo.png" class="img-fluid" alt="iCharge">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav ml-auto text-uppercase">
+                    <li class="nav-item px-lg-2"><a class="nav-link text-white" href="#home">Home</a></li>
+                    <li class="nav-item px-lg-2"><a class="nav-link text-white" href="#about">ABOUT</a></li>
+                    <li class="nav-item px-lg-2"><a class="nav-link text-white" href="#recharge">CONTACT
+                            SELLER</a>
+                    </li>
+                    <li class="nav-item px-lg-2"><a class="nav-link text-white" href="#purchase-now">PURCHASE
+                            NOW</a></li>
+                    <li class="nav-item px-lg-2"><a class="nav-link text-white" href="#company-profile">TESTIMONIAL</a>
+                    </li>
+                    <li class="nav-item px-lg-2"><a class="nav-link text-white" href="#contact">CONTACT</a></li>
+                </ul>
             </div>
-        </nav>
-    </header>
-    <div id="pagepiling">
+        </div>
+    </nav>
+
+    <div id="fullpage">
+
         <!-- Section 1 -->
-        <section id="home" class="section first text-center pt-5 pt-md-0">
-            <h1 class="text-uppercase text-gradient pt-5 pt-md-0 mb-0">CRACK OPEN ENERGY</h1>
-            <img src="img/icharge.png" class="img-fluid mx-auto pt-5 d-none d-md-block animate-move"
+        <section id="home" class="section first text-center py-5 py-lg-0 fp-noscroll">
+            <h1 class="text-uppercase text-gradient pt-5">CRACK OPEN ENERGY</h1>
+            <img src="img/icharge.png" class="img-fluid mx-auto pt-5 animate-move"
                 alt="iCharge - Crack Open Eenrgy image">
-            <hr />
+            <!-- <hr/> -->
+            <div class="text-center pt-5"><img src="img/border.png" alt="border-image"></div>
         </section>
         <!-- End Section 1 -->
-
+        
         <!-- Section 2 -->
-        <section id="recharge-and-conquer" class="section second" style="border-bottom:none; border-bottom-color:transparent;">
-            <div class="row d-flex align-items-center">
-                <div class="col-md-7 text-right pr-md-5 pt-0 pt-lg-5">
-                    <img src="img/recharge.png" alt="recharge" class="img-fluid  is-animated__Left">
-                    <div class="overlap-can is-animated__Top">
+        <section id="recharge-and-conquer" class="section second animate animate-left animate-down pb-5 py-lg-0 fp-noscroll"
+            >
+            <div class="row d-flex align-items-center mx-0">
+                <div class="col-md-7 text-md-right pr-md-5 pt-0 pt-lg-5">
+                    <img src="img/recharge.png" alt="recharge" class="img-fluid fade-right man pt-5 pt-lg-0 mt-5 mt-lg-0">
+                    <div class="overlap-can fade-down ">
                         <img src="img/icharge.png" alt="icharge can image"
-                            class="img-fluid mx-auto d-block animate-move">
+                            class="img-fluid mx-auto d-block animate-move man pt-3 pt-lg-0">
                     </div>
                 </div>
-                <div class="col-md-4 px-5 px-md-0">
-                    <h1 class="pt-md-4 text-md-left text-center is-animated std-black">
+                <div class="col-md-4 px-5 px-md-0 fade-left ">
+                    <h1 class="pt-5 pt-md-4 text-md-left text-center std-black ">
                         Recharge and Conquer
-                        <hr class="conquer-hr"/>
+                        <hr class="conquer-hr" />
                     </h1>
-                    <p class="ingr-desc is-animated">
+                    <p class="ingr-desc">
                         You’re living life in the fast lane, shuffling between work, meetings and more.
                         Turns out, not often do you make it to bed happy, or grab a good night’s sleep.
                         While it’s only natural to feel worn out, having to repeat your taxing schedule
                         on a daily basis.
                     </p>
-                    <p class="ingr-desc is-animated pb-5">
+                    <p class="ingr-desc pb-5">
                         Wouldn’t it be nice to have a drink that powers you through
                         the entire day, sans the nasty caffeine-induced side effects? Wouldn’t it be
                         great to sip a drink that keeps you alert, without the extra calories?
                         Now wouldn’t it be awesome if we made it available to you!
                     </p>
-                    <div class="is-animated contact-seller position-absolute bottom-0 rounded-0">
-                        <a href="#" class="btn btn-md contact-seller-button rounded-0 std-book px-5"> Contact
-                            seller</a>
+                    <div class="contact-seller position-absolute bottom-0 rounded-0">
+                        <a href="#contact" class="btn btn-md contact-seller-button rounded-0 std-book px-5">Contact
+                    </a>
                     </div>
                 </div>
             </div>
-            <hr />
+            <!-- <hr /> -->
         </section>
         <!-- End Section 2 -->
 
         <!-- Section 3 -->
-        <section id="icharge" class="section third">
+        <section class="section third animate animate-down py-5 py-lg-0 fp-noscroll">
             <div class="container">
-                <div class="row d-flex justify-content-center align-items-center pt-md-5">
-                    <div class="col-lg-4 col-md-6 text-right">
-                        <div class="is-animated__Left">
+                <div class="text-center pt-5"><img src="img/border.png" alt="border-image"></div>
+                <div class="row d-flex justify-content-center align-items-center  mx-0">
+                    <div class="col-lg-4 col-md-6 text-right  fade-right ">
+                        <div class="">
                             <img src="/img/icharge-logo.png" alt="icharge logo" class="img-fluid py-3">
                         </div>
-                        <p class="ingr-desc is-animated__Left">
+                        <p class="ingr-desc  py-4 py-md-0 ">
                             Formulated with a unique holistic approach, i-Charge bears a mouth-watering taste. The
                             driving force behind i-Charge is Kanna,
                             popularly identified as Sceletium tortuosum. Usually chewed or used as a snuff, Kanna is
@@ -120,155 +121,193 @@
                             while providing adequate immunity against routine lethargy, aches, and muscular pains.
                         </p>
                     </div>
-                    <div class="col-lg-4 col-md-6 is-animated__Top">
+                    <div class="col-lg-4 col-md-6 pt-0 pt-md-5 fade-down ">
                         <img src="img/icharge.png" alt="icharge can image"
-                            class="img-fluid  mx-auto d-block animate-move">
+                            class="img-fluid  mx-auto d-block animate-move mt-5 mt-md-0">
                     </div>
                     <div class="col-md-4"></div>
                 </div>
+                <div class="text-center pt-5"><img src="img/border.png" alt="border-image"></div>
             </div>
-            <hr />
+            <!-- <hr /> -->
         </section>
         <!-- End Section 3 -->
-
+       
         <!-- Section 4 -->
-        <section id="kanna" class="section ingredients fourth">
-            <div class="container">
-                <p class="ingr-head text-center text-uppercase pb-md-5 std-medium pt-5 pt-md-0">ingredients</p>
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-md-4">
-
-                    </div>
-                    <div class="col-md-4 is-animated__Top">
-                        <img src="img/icharge.png" alt="icharge can image"
-                            class="img-fluid mx-auto d-none d-md-block animate-move">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/kanna.png" alt="kanna Ingredient image" class="img-fluid is-animated">
-                        <h1 class="ingr-head pt-md-4 is-animated std-medium pt-md-3">
-                            Kanna</h1>
-                        <p class="ingr-desc is-animated">
-                            A long history of documented use in Africa, Kanna is
-                            well known for its instant performance enhancing abilities.
-                            It interacts with the receptors in the brain and enhances
-                            the production of dopamine - a primary chemical required
-                            for inner pleasure.
-                        </p>
+        <section class="section ingredients fourth animate-down animate-left py-5 py-lg-0 fp-noscroll">
+                <div class="container">
+                    <h6 class="ingr-head text-center text-uppercase pb-md-3 std-medium py-5 pt-md-3">ingredients</h6>
+                    <div class="row d-flex justify-content-end align-items-center mx-0">
+                        <div class="col-md-4 fade-down ">
+                            <div class="text-center pb-5 d-none d-lg-block"><img src="img/border.png" alt="border-image"></div>
+                            <img src="img/icharge.png" alt="icharge can image"
+                                class="img-fluid mx-auto d-none d-md-block animate-move pt-md-3 pt-lg-0">
+                        </div>
+                        <div class="col-md-4  fade-left ">
+                            <img src="img/kanna.png" alt="kanna Ingredient image" class="img-fluid">
+                            <h1 class="ingr-head pt-md-4 std-medium pt-3">
+                                Kanna</h1>
+                            <p class="ingr-desc py-2 py-md-0">
+                                A long history of documented use in Africa, Kanna is
+                                well known for its instant performance enhancing abilities.
+                                It interacts with the receptors in the brain and enhances
+                                the production of dopamine - a primary chemical required
+                                for inner pleasure.<br>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+        </section>  
+         <!-- End Section 4 -->
+    
+         <!-- Section 5-->
+         <section class="section ingredients fifth animate py-5 py-lg-0 animate-down fp-noscroll">
+                    <div class="container">
+                        <h6 class="ingr-head text-center text-uppercase pb-md-3 std-medium py-5 pt-md-3 d-none d-lg-block">ingredients</h6>
+                        <div class="row d-flex align-items-center mx-0">
+                                <div class="col-md-4 text-right fade-right ">
+                                        <img src="img/ashwagandharishta-large.png" alt="Ashwagandharishta ingredient imaga"
+                                            class="img-fluid ">
+                                        <h1 class="ingr-head pt-3 std-medium">
+                                            Ashwagandharishta </h1>
+                                        <p class="ingr-desc py-3 py-md-0">
+                                            Ayurvedic in nature, Ashwagandhadyarista helps improve
+                                            alertness and diminish anxiety. It is also known to
+                                            improve stamina, while helping fight various
+                                            occupational body pain.<span><br> <br></span>
+                                        </p>
+                                    </div>
+                            <div class="col-md-4">
+                                    <div class="text-center pb-5 d-none d-lg-block"><img src="img/border.png" alt="border-image"></div>
+                                    <img src="img/icharge.png" alt="icharge can image"
+                                        class="img-fluid mx-auto d-none d-md-block animate-move ipad-fade">
+                                </div>
+                            <div class="col-md-4 d-none d-lg-block">
+                                <img src="img/kanna.png" alt="kanna Ingredient image" class="img-fluid">
+                                <h1 class="ingr-head pt-md-4 std-medium pt-3">
+                                    Kanna</h1>
+                                <p class="ingr-desc py-2 py-md-0">
+                                    A long history of documented use in Africa, Kanna is
+                                    well known for its instant performance enhancing abilities.
+                                    It interacts with the receptors in the brain and enhances
+                                    the production of dopamine - a primary chemical required
+                                    for inner pleasure.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+         </section>  
+         <!-- End Section  -->
+    
+         <!-- Section 5-->
+        <section class="section ingredients sixth animate-left  py-5 py-md-0 animate-down fp-noscroll">
+                    <div class="container">
+                        <h6 class="ingr-head text-center text-uppercase pb-md-3 std-medium py-5 pt-md-3 d-none d-lg-block">ingredients</h6>
+                        <div class="row d-flex align-items-center mx-0">
+                            <div class="col-4 d-none d-md-block d-lg-none"></div>
+                                <div class="col-md-4 text-right  d-none d-lg-block">
+                                        <img src="img/ashwagandharishta-large.png" alt="Ashwagandharishta ingredient"
+                                            class="img-fluid ">
+                                        <h1 class="ingr-head pt-3  std-medium">
+                                            Ashwagandharishta </h1>
+                                        <p class="ingr-desc  py-3 py-md-0">
+                                            Ayurvedic in nature, Ashwagandhadyarista helps improve
+                                            alertness and diminish anxiety. It is also known to
+                                            improve stamina, while helping fight various
+                                            occupational body pain.<span><br> <br></span>
+                                        </p>
+                                    </div>
+                            <div class="col-md-4">
+                                <div class="text-center pb-5 d-none d-lg-block"><img src="img/border.png" alt="border-image"></div>
+                                <img src="img/icharge.png" alt="icharge can image"
+                                    class="img-fluid mx-auto d-none d-md-block animate-move ipad-fade">
+                            </div>
+                            <div class="col-md-4 fade-left ">
+                                    <img src="img/balarishta.png" alt="balarishta" class="img-fluid"
+                                     >
+                                    <h1 class="ingr-head pt-4 std-medium">
+                                        Balarishta</h1>
+                                    <p class="ingr-desc py-3 py-md-0">
+                                        Balarishta is another power packed, time-tested formulation
+                                        that is enriched with Bala (Sida cordifolia) - a known ingredient
+                                        proven to strengthen nerves, muscles, and bones.<br><br>
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+         </section>  
         <!-- End Section 4 -->
 
-        <!-- Section 5 -->
-        <section id="ashwagandha" class="section ingredients fifth">
-            <div class="container">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-md-4 text-right">
-                        <img src="img/ashwagandharishta.png" alt="Ashwagandharishta ingredient imaga"
-                            class="img-fluid is-animated__Left">
-                        <h1 class="ingr-head pt-md-4 is-animated__Left std-medium">
-                            Ashwagandharishta </h1>
-                        <p class="ingr-desc is-animated__Left">
-                            Ayurvedic in nature, Ashwagandhadyarista helps improve
-                            alertness and diminish anxiety. It is also known to
-                            improve stamina, while helping fight various
-                            occupational body pain.
-                        </p>
-                    </div>
-                    <div class="col-md-4 is-animated__Top">
-                        <img src="img/icharge.png" alt="icharge can image"
-                            class="img-fluid mx-auto d-none d-md-block animate-move">
-                    </div>
-                    <div class="col-md-4"></div>
-                </div>
-            </div>
-        </section>
-        <!-- End Section 5 -->
-
-        <!-- Section 6 -->
-        <section id="balarishta" class="section ingredients sixth">
-            <div class="container">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-md-4">
-
-                    </div>
-                    <div class="col-md-4 is-animated__Top">
-                        <img src="img/icharge.png" alt="icharge can image"
-                            class="img-fluid mx-auto d-none d-md-block animate-move">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/balarishta.png" alt="balarishta" class="img-fluid is-animated">
-                        <h1 class="ingr-head pt-md-4 is-animated std-medium">
-                            Balarishta</h1>
-                        <p class="ingr-desc is-animated">
-                            Balarishta is another power packed, time-tested formulation
-                            that is enriched with Bala (Sida cordifolia) - a known ingredient
-                            proven to strengthen nerves, muscles, and bones.
-                        </p>
+        <!-- Section 5-->
+        <section class="section ingredients seventh animate animate-down py-5 py-lg-4 fp-noscroll">
+                <div class="container">
+                    <h6 class="ingr-head text-center text-uppercase pb-md-3 std-medium py-5 pt-md-3 d-none d-lg-block">ingredients</h6>
+                    <div class="row d-flex align-items-center mx-0">
+                            <div class="col-md-4 text-right fade-right ">
+                                    <img src="img/drakshasava.png" alt="drakshasava"
+                                        class="img-fluid mx-auto d-block ">
+                                    <h1 class="ingr-head pt-4 std-medium ">
+                                        DRAKSHASAVA
+                                    </h1>
+                                    <p class="ingr-desc  py-3 py-md-0">
+            
+                                        Rich in raisins and other powerful nutrients,
+                                        Drakshasava is known to treat respiratory
+                                        diseases and intestinal disorders. It helps improve
+                                        strength and keeps gastritis and hyperacidity at bay.
+                                    </p>
+                                </div>
+                        <div class="col-md-4">
+                            <div class="text-center pb-5 d-none d-lg-block"><img src="img/border.png" alt="border-image"></div>
+                            <img src="img/icharge.png" alt="icharge can image"
+                                class="img-fluid mx-auto d-none d-md-block animate-move ipad-fade">
+                        </div>
+                        <div class="col-md-4  d-none d-lg-block">
+                                <img src="img/balarishta.png" alt="balarishta" class="img-fluid"
+                                 >
+                                <h1 class="ingr-head pt-4 std-medium">
+                                    Balarishta</h1>
+                                <p class="ingr-desc py-3 py-md-0">
+                                    Balarishta is another power packed, time-tested formulation
+                                    that is enriched with Bala (Sida cordifolia) - a known ingredient
+                                    proven to strengthen nerves, muscles, and bones.<br><br>
+                                </p>
+                            </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- End Section 6 -->
-
-        <!-- Section 7 -->
-        <section id="drakshasava" class="section ingredients seventh">
-            <div class="container">
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-md-4 text-right">
-                        <img src="img/drakshasava.png" alt="drakshasava"
-                            class="img-fluid mx-auto d-block is-animated__Left">
-                        <h1 class="ingr-head pt-md-4 std-medium is-animated__Left">
-                            DRAKSHASAVA
-                        </h1>
-                        <p class="ingr-desc is-animated__Left">
-
-                            Rich in raisins and other powerful nutrients,
-                            Drakshasava is known to treat respiratory
-                            diseases and intestinal disorders. It helps improve
-                            strength and keeps gastritis and hyperacidity at bay.
-                        </p>
-                    </div>
-                    <div class="col-md-4 is-animated__Top">
-                        <img src="img/icharge.png" alt=""
-                            class="img-fluid is-animated mx-auto d-none d-md-block animate-move">
-                    </div>
-                    <div class="col-md-4"></div>
-                </div>
-            </div>
-            <hr />
-        </section>
-        <!-- End Section 7 -->
-
+                <div class="text-center fade-right pt-md-4 d-none d-lg-block"><img src="img/border.png" alt="border-image"></div>
+        </section>  
+        <!-- End Section 4 -->
+               
         <!-- Section 8 -->
-        <section id="ingredients" class="section ingredients eight py-5 py-md-0">
+        <section id="ingredients" class="section ingredients eight py-5 py-lg-0 animate animate-left animate-down fp-noscroll">
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center std-medium ">
-                    <div class="col-md-4">
-                        <img src="img/No-Caffeine-new.png" class="img-fluid mx-auto d-block is-animated__Left"
+                    <div class="col-md-4  fade-right ">
+                        <img src="img/No-Caffeine-new.png" class="img-fluid mx-auto d-block "
                             alt="iCharge - No Caffeine">
-                        <h1 class="text-center ingr-head std-medium text-uppercase is-animated__Left pt-4">No Caffeine</h1>
-                        <hr class="eight-hr mx-auto" />
+                        <h1 class="text-center ingr-head std-medium text-uppercase  pt-4">No Caffeine
+                        </h1>
+                        <hr class="eight-hr mx-auto"/>
                     </div>
-                    <div class="col-md-4 is-animated__Top">
-                        <img src="img/icharge.png" alt="iCharge"
-                            class="img-fluid mx-auto d-none d-md-block animate-move">
+                    <div class="col-md-4py-5 py-md-0 text-center fade-down ">
+                        <img src="img/icharge.png" alt="iCharge" class="img-fluid mx-auto animate-move py-5 py-md-0">
                     </div>
-                    <div class="col-md-4">
-                        <img src="img/no-sugar.png" class="img-fluid mx-auto d-block is-animated"
+                    <div class="col-md-4  fade-left ">
+                        <img src="img/no-sugar.png" class="img-fluid mx-auto d-block"
                             alt="iCharge - No Sugar">
-                        <h2 class="text-center ingr-head std-medium text-uppercase is-animated pt-4">No Sugar</h2>
+                        <h2 class="text-center ingr-head std-medium text-uppercase pt-4">No Sugar</h2>
                         <hr class="eight-hr mx-auto" />
                     </div>
                 </div>
             </div>
-            <hr />
+            <!-- <hr /> -->
         </section>
         <!-- End Section 8 -->
 
         <!-- Section 9 -->
-        <section class="benefits section text-center">
+        <section class="benefits section text-center py-5 py-lg-0 fp-noscroll">
+            <div class="text-center pb-5"><img src="img/border.png" alt="border-image"></div>
             <div class="container">
                 <h1 class="std-black letter-spacing-sm pb-5">Benefits</h1>
                 <div class="row justify-content-around std-medium">
@@ -294,137 +333,165 @@
         <!-- End Section 9 -->
 
         <!-- Section 10 -->
-        <section class="company-profile section">
+        <section class="company section py-5 py-lg-0 fp-noscroll">
             <h1 class="text-center text-uppercase std-black pt-5 pb-3">Company Profile</h1>
-            <div class="row pt-4 pb-3">
-                <div class="col-md-6">
+            <div class="row pt-4 pb-3 mx-0">
+                <div class="col-12 col-md-5   px-0 pl-md-0 ">
                     <img src="/img/Company-Profile-image.png" alt="company profile" class="img-fluid">
                 </div>
-                <div class="col-md-4 px-5">
-                    <p>
-                        Established in January 17, 2014 and headquartered at the World Trade Centre,
-                        Bengaluru, IndusViva today, is enriched by 1,80,000 direct sellers across India.</p>
+                <div class="col-12 col-md-6 col-lg-5 d-flex flex-column justify-content-between px-md-5">
+                    <div>
+                        <p class="py-4 py-md-0">
+                            Established in January 17, 2014 and headquartered at the World Trade Centre,
+                            Bengaluru, IndusViva today, is enriched by 1,80,000 direct sellers across India.</p>
 
-                    <p>We formulate, manufacture, and market world-class health and wellness products
-                        while bringing to light, the freshness of nature and goodness of the world into your home.
-                    </p>
-                    <div class="contact-seller position-absolute bottom-md-0 rounded-0">
-                        <a href="#" class="btn contact-seller-button std-medium px-5">Contact
-                            Seller</a>
+                        <p>We formulate, manufacture, and market world-class health and wellness products
+                            while bringing to light, the freshness of nature and goodness of the world into your home.
+                        </p>
+                    </div>
+                    <div>
+                        <a href="#contact" class="btn  contact-seller-button std-medium px-5 contact-seller rounded-0">Contact
+                            </a>
                     </div>
                 </div>
+            </div>
         </section>
         <!-- End Section 10 -->
 
         <!-- Section 11 -->
-        <section class="references section pt-5 pt-md-0">
+        <section class="references section py-5 pt-lg-0 fp-noscroll">
             <div class="text-center pb-5">
                 <h1 class="text-uppercase std-black">References</h1>
+                
+                <div class="container">
+                        <div class="row d-flex justify-content-center mx-0">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li class="py-1 text-justify">
+                                        <p>Lieb K, Dammann G. Berger M, Bauer J. [Chronic fatigue syndrome.
+                                            Definition, diagno.stic measures and therapeutic possibilities].
+                                            Nervenant. 1996;67:711-720.</p>
+                                    </li>
+                                    <li class="py-1 text-justify">
+                                        <p>Earrar DJ, Locke SE, Kantrowitz EG. Chronic fatigue syndrome.
+                                            1: Etiology and pathogenesis. BehavMed. 1995:21:5-16</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul>
+    
+                                    <li class="py-1 text-justify">
+                                        <p>Sundaram, K. Dr. (1993) ―Manoroga Chikitsa Ayurvedathil,
+                                            in Ayurveda seminar Text, Aryavaidyasala, Kottakkal. P. 10.
+                                        </p>
+                                    </li>
+                                    <li class="py-1 text-justify">
+                                        <p> Ramesh U and Kurian Joseph (2012) Management of stress induced
+                                            disorders in IT professionals through Ayurvedic wellness in tourism in Kerala,
+                                            International Journal of Research in management, Issue 2, Vol. 6.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+
+                <div class="container collapse" id="references">
+                    <div class="row d-flex justify-content-center mx-0">
+                        <div class="col-md-6">
+                            <ul>
+                                <li class="py-1 text-justify">
+                                    <p>Stoudemire A: Epidemiology of anxiety in medical patients</p>
+                                </li>
+                                <li class="py-1 text-justify">
+                                    <p>Joshua Cowa, Shoba Raja, Amali Naik and Gregory Armstrong (2012) Knowledge and
+                                        attitudes of doctors regarding the provision of mental health care in
+                                        Doddaballapur
+                                        Taluk, Bangalore Rural district, Karnataka, International Journal of Mental
+                                        Health
+                                        System: 6:21.</p>
+                                </li>
+                                <li class="py-1 text-justify">
+                                    <p>Prakash B Behere, Anweshak Das, Richa Yadav,
+                                        Aniruddh P Behere(2013) Ayurvedic concepts related to psychotherapy,
+                                        IJP, Volume : 55 | Issue : 6 | Page : 310-314.</p>
+                                </li>
+                                <li class="py-1 text-justify">
+                                    <p>Dr. Balaji Deekshitulu P.V, International journal of ayurvedic & herbal
+                                        medicine 3(3) Jul-Aug. 2013(1246-1252) 1248.</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li class="py-1 text-justify">
+                                    <p>Kroenke K, Wood DR, Mangelsdorff D, et al. Chronic fatigue in primary care:
+                                        prevalence,
+                                        patient characteristics, and outcome. JAMA 1988; 260: 929-934.
+                                    </p>
+                                </li>
+                                <li class="py-1 text-justify">
+                                    <p>avid A, Pelosi A, McDonald E, et al. Tired, weak, or in need of rest: fatigue
+                                        among
+                                        general practice attenders. BMJ 1990; 301: 1199-1202.
+                                    </p>
+                                </li>
+                                <li class="py-1 text-justify">
+                                    <p>Randomized, Double blind and Placebo controlled Clinical evaluation to determine
+                                        safety
+                                        and efficacy of i-CHARGE liquid, an Ayurvedic health promoter drink in the
+                                        management of
+                                        stress induced fatigue DR.
+                                        SUVENDU KUMAR ROUT, DR. BALU KOLAR, SUJATA MISHRA.2017.
+                                        International Journal for Innovative research in Multidisciplinary fields.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <p class="disabled expand">Click Here to Expand</p>
                 <a class="show-more" href="#references" data-toggle="collapse" aria-expanded="false"
                     aria-controls="references">
                     <span class="collapsed">
-                        <div class="text-center"><img src="img/down-arrow.png" alt="Down arrow" class="img-fluid tog py-1">
+                        <div class="text-center py-1"><img src="img/down-arrow.png" alt="Down arrow"
+                                class="img-fluid tog py-1">
                         </div>
                     </span>
                 </a>
-
-                <div class="container collapse" id="references">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-md-6">
-                            <ul>
-                                <li class="py-1"> Lieb K, Dammann G. Berger M, Bauer J. [Chronic fatigue syndrome.
-                                    Definition, diagno.stic measures and therapeutic possibilities].
-                                    Nervenant. 1996;67:711-720.</li>
-                                <li class="py-1">
-                                    Earrar DJ, Locke SE, Kantrowitz EG. Chronic fatigue syndrome.
-                                    1: Etiology and pathogenesis. BehavMed. 1995:21:5-16
-                                </li>
-                                <li class="py-1">
-                                    Stoudemire A: Epidemiology of anxiety in medical patients
-                                </li>
-                                <li class="py-1">
-                                    Joshua Cowa, Shoba Raja, Amali Naik and Gregory Armstrong (2012) Knowledge and
-                                    attitudes of doctors regarding the provision of mental health care in Doddaballapur
-                                    Taluk, Bangalore Rural district, Karnataka, International Journal of Mental Health
-                                    System: 6:21.
-                                </li>
-                                <li class="py-1">
-                                    Prakash B Behere, Anweshak Das, Richa Yadav,
-                                    Aniruddh P Behere(2013) Ayurvedic concepts related to psychotherapy,
-                                    IJP, Volume : 55 | Issue : 6 | Page : 310-314.
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6">
-                            <ul>
-                                <li class="py-1">
-                                    Dr. Balaji Deekshitulu P.V, International journal of ayurvedic & herbal
-                                    medicine 3(3) Jul-Aug. 2013(1246-1252) 1248.
-                                </li>
-                                <li class="py-1">
-                                    Sundaram, K. Dr. (1993) ―Manoroga Chikitsa Ayurvedathil,
-                                    in Ayurveda seminar Text, Aryavaidyasala, Kottakkal. P. 10.
-
-                                </li>
-                                <li class="py-1">
-                                    Ramesh U and Kurian Joseph (2012) Management of stress induced
-                                    disorders in IT professionals through Ayurvedic wellness in tourism in Kerala,
-                                    International Journal of Research in management, Issue 2, Vol. 6.
-                                </li>
-                                <li class="py-1">
-                                    Kroenke K, Wood DR, Mangelsdorff D, et al. Chronic fatigue in primary care:
-                                    prevalence,
-                                    patient characteristics, and outcome. JAMA 1988; 260: 929-934.
-
-                                </li>
-                                <li class="py-1">
-                                    David A, Pelosi A, McDonald E, et al. Tired, weak, or in need of rest: fatigue among
-                                    general practice attenders. BMJ 1990; 301: 1199-1202.
-
-                                </li>
-                                <li class="py-1">
-                                    Randomized, Double blind and Placebo controlled Clinical evaluation to determine
-                                    safety
-                                    and efficacy of i-CHARGE liquid, an Ayurvedic health promoter drink in the
-                                    management of
-                                    stress induced fatigue DR.
-                                    SUVENDU KUMAR ROUT, DR. BALU KOLAR, SUJATA MISHRA.2017.
-                                    International Journal for Innovative research in Multidisciplinary fields.
-
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- <div class="text-center pt-md-5 col-md-4 w-100">
-                            <a href="#"
-                                class="text-uppercase h6 std-black py-2 px-md-5 text-dark btn-lg border border-0 rounded-0 purchase-btn w-100">Purchase
-                                Now</a>
-                        </div> -->
-                    </div>
+                <div class="text-center pt-4">
+                    <a href="#contact"
+                        class="text-uppercase h6 std-black py-2 px-5 text-dark btn-lg border border-0 rounded-0 purchase-btn w-100">Purchase
+                        Now</a>
                 </div>
             </div>
-
-            <hr />
+       
         </section>
         <!-- End Section 11 -->
 
         <!-- Section 12 -->
-        <section class="contact-section section" id="contact">
+        <section class="contact-section section py-5 pt-lg-0" id="contact">
             <div class="px-4 px-md-0">
                 <h1 class="text-uppercase text-center py-5 std-book mt-md-4">Contact Us</h1>
-                <div class="container">
+
+                <div class="container contact-us">
                     <div class="row d-flex justify-content-center">
+                        <div class="col-lg-10">
+                        <div class="row justify-content-between">
                         <div class="col-md-6 details">
                             <div class="row py-2">
                                 <div class="col-2 text-center">
                                     <img src="img/location.png" class="img-fluid" alt="location">
                                 </div>
                                 <div class="col-10 px-md-0 letter-spacing-sm">
-                                    <h6 class="std-medium">
+                                    <h6 class="std-medium font-8">
                                         IndusViva HealthSciences Pvt Ltd
                                     </h6>
 
-                                    <p class="std-book"> Viva Tower <br>
+                                    <p class="std-book font-8"> Viva Tower <br>
                                         No.36, V P Deendayal Road, Jayamahal Extension, <br>
                                         Bengaluru - 560046</p>
                                 </div>
@@ -435,10 +502,10 @@
                                     <img src="img/customer-care.png" class="img-fluid" alt="customer care">
                                 </div>
                                 <div class="col-10 px-md-0 letter-spacing-sm">
-                                    <h6 class="std-medium">
+                                    <h6 class="std-medium font-8">
                                         Customer Care Number
                                     </h6>
-                                    <p class="std-book">
+                                    <p class="std-book font-8">
                                         080 43532020
                                     </p>
                                 </div>
@@ -448,10 +515,10 @@
                                     <img src="img/phone.png" class="img-fluid" alt="phone">
                                 </div>
                                 <div class="col-10 px-md-0 letter-spacing-sm">
-                                    <h6 class="std-medium">
+                                    <h6 class="std-medium font-8">
                                         Toll Free No:
                                     </h6>
-                                    <p class="std-book">
+                                    <p class="std-book font-8">
                                         18001034916
                                     </p>
                                 </div>
@@ -462,101 +529,102 @@
                                 </div>
                                 <div class="col-10 px-md-0 letter-spacing-sm">
 
-                                    <h6 class="std-medium"> E-mail Address:</h6>
+                                    <h6 class="std-medium font-8"> E-mail Address:</h6>
                                     <p class="std-book">
                                         contact@indusviva.com
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-5">
                             <form action="">
                                 <div class="form-row">
                                     <div class="form-group py-0 py-md-1 px-0 col-12">
-                                        <label for="formname" class="sr-only">Your Name</label>
-                                        <input type="text" name="name" id="formname" class="form-control mx-0 border-0 rounded-0"
-                                            placeholder="Your Name" required>
+                                        <label for="formname" class="sr-only font-8">Your Name</label>
+                                        <input type="text" name="name" id="formname"
+                                            class="form-control mx-0 border-0 rounded-0" placeholder="Your Name"
+                                            required>
                                     </div>
                                     <div class="form-group py-0 py-md-1 px-0 col-12">
-                                        <label for="formemail" class="sr-only">Your Email</label>
+                                        <label for="formemail" class="sr-only font-8">Your Email</label>
                                         <input type="email" name="email" id="formemail"
-                                            class="form-control mx-0 border-0 rounded-0" placeholder="Your Email" required>
+                                            class="form-control mx-0 border-0 rounded-0" placeholder="Your Email"
+                                            required>
                                     </div>
                                     <div class="form-group py-0 py-md-1 px-0 col-12">
-                                        <label for="formsubject" class="sr-only">Subject</label>
+                                        <label for="formsubject" class="sr-only font-8">Subject</label>
                                         <input type="text" name="subject" class="form-control mx-0 border-0 rounded-0"
                                             placeholder="Subject" required>
                                     </div>
                                     <div class="form-group py-0 py-md-1 px-0 col-12">
-                                        <label for="formmessage" class="sr-only">Message</label>
+                                        <label for="formmessage" class="sr-only font-8">Message</label>
                                         <textarea name="message" class="form-control mx-0 border-0 rounded-0" rows="4"
                                             placeholder="Your Message" required></textarea>
                                     </div>
-                                    <div class="col-12 py-3 text-center">
-                                        <div class="form-send">
+                                    <div class="col-12 py-3 text-left">
+                                        <div class="form-send mx-auto">
                                             <a href="#"
-                                                class="btn contact-seller-button std-book px-4 text-uppercase rounded-0">Send</a>
+                                                class="btn contact-seller-button std-book px-4 text-uppercase rounded-0 font-8">Send</a>
                                         </div>
                                     </div>
                                 </div>
                             </form>
                         </div>
+                      </div>
+                    </div>
                     </div>
                 </div>
             </div>
-            <div class="footer">
-                <div class="row d-flex justify-content-center">
-                    <div class="container">
-                        <div class="row justify-content-center py-5">
-                            <div class="col-12 col-md-4 col-lg-3 text-center text-md-left std-book">
-                                <img src="img/icharge-logo.png" alt="icharge logo" class="img-fluid">
-                                <p class="pt-2 paragraph">©2018 Indusviva Private Limited <br>
-                                    All Rights Reserved.</p>
-                            </div>
-                            <div class="col-12 col-md-4 col-lg-3 text-center text-md-left pt-md-3 pt-0">
-                                <h6 class="text-uppercase footer-head std-black">Become a member</h6>
-                                <ul class="list-inline py-2">
-                                    <li class="list-inline-item pl-md-3">
-                                        <a href="#">
-                                            <i class="fab fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item pl-3">
-                                        <a href="#">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item pl-3">
-                                        <a href="#">
-                                            <i class="fab fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item pl-3">
-                                        <a href="#">
-                                            <i class="fab fa-linkedin"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-12 col-md-3 text-center text-md-left pt-md-3 pt-0">
-                                <h6 class="text-uppercase footer-head std-black">T & C</h6>
-                                <ul class="list-unstyled footer-subheading std-book">
-                                    <li class="py-2 py-md-0">
-                                        <a href="#" class="footer-sub">Cookies</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="footer-sub">Privacy Policy</a>
-                                    </li>
-                                </ul>
-                            </div>
+
+            <div class="row d-flex justify-content-center mx-0 footer pr-lg-5 pt-4 pt-lg-1">
+                <div class="container">
+                    <div class="row justify-content-end py-2 py-md-5">
+                        <div class="col-12  col-md-4 col-lg-3 text-center text-md-left std-book">
+                            <img src="img/icharge-logo.png" alt="icharge logo" class="img-fluid">
+                            <p class="pt-2 paragraph ">©2018 Indusviva Private Limited <br>
+                                All Rights Reserved.</p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3 text-center text-md-left pt-md-3 pt-0">
+                            <h6 class="text-uppercase footer-head std-black">Become a member</h6>
+                            <ul class="list-inline py-2">
+                                <li class="list-inline-item pl-md-3">
+                                    <a href="#">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item pl-3">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item pl-3">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item pl-3">
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-3 text-center text-md-left pt-md-3 pt-0">
+                            <h6 class="text-uppercase footer-head std-black">T & C</h6>
+                            <ul class="list-unstyled footer-subheading std-book">
+                                <li class="py-2 py-md-0">
+                                    <a href="#" class="footer-sub">Cookies</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer-sub">Privacy Policy</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
         <!-- End Section 12 -->
-
     </div>
     <!-- End of header & Navbar -->
 
@@ -567,140 +635,30 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-
+    <script src="js/https://cdnjs.cloudflare.com/ajax/libs/jQuery-slimScroll/1.3.8/jquery.slimscroll.min.js"></script>
+    <script src="js/scrolloverflow.min.js"></script>
     <script type="text/javascript" src="/js/fullpage.min.js"></script>
-
-    <!-- <script type="text/javascript" src="/js/fullpage.min.js"></script> -->
+    <script src="js/index.js"></script>
+   
     <script type="text/javascript">
         (function ($) {
+            $('#fullpage').fullpage({
 
-            'use strict';
-
-            // variables
-            var $isAnimatedSecond = $('.second .is-animated'),
-                $isAnimatedSecondLeft = $('.second .is-animated__Left'),
-                $isAnimatedSecondTop = $('.second .is-animated__Top'),
-                $isAnimatedThirdLeft = $('.third .is-animated__Left'),
-                $isAnimatedThirdTop = $('.third .is-animated__Top'),
-                $isAnimatedFourth = $('.fourth .is-animated'),
-                $isAnimatedFourthTop = $('.fourth .is-animated__Top'),
-                $isAnimatedFifthTop = $('.fifth .is-animated__Top'),
-                $isAnimatedFifthLeft = $('.fifth .is-animated__Left'),
-                $isAnimatedSixth = $('.sixth .is-animated'),
-                $isAnimatedSixthTop = $('.sixth .is-animated__Top'),
-                $isAnimatedSeventhTop = $('.seventh .is-animated__Top'),
-                $isAnimatedSeventhLeft = $('.seventh .is-animated__Left'),
-                $isAnimatedEight = $('.eight .is-animated'),
-                $isAnimatedEightTop = $('.eight .is-animated__Top'),
-                $isAnimatedEightLeft = $('.eight .is-animated__Left');
-            // initialize fullPage
-
-            $('#pagepiling').fullpage({
-
-                navigation: false,
-                onLeave: function (index, nextIndex, direction) {
-                    var actIndex = parseInt(index.index) + 1;
-
-                    // Second slide animation
-                    if (actIndex == 1) {
-                        console.log(actIndex);
-                        $isAnimatedSecondLeft.addClass('animated fadeInLeft');
-                        $isAnimatedSecondLeft.eq(0).css('animation-delay', '.7s');
-                        $isAnimatedSecond.addClass('animated fadeInRight');
-                        $isAnimatedSecond.eq(0).css('animation-delay', '.3s');
-                        $isAnimatedSecond.eq(1).css('animation-delay', '.5s');
-                        $isAnimatedSecond.eq(2).css('animation-delay', '.7s');
-                        $isAnimatedSecond.eq(3).css('animation-delay', '.9s');
-                        $isAnimatedSecondTop.addClass('animated fadeInDown');
-                        $isAnimatedSecondTop.eq(0).css('animation-delay', '.3s');
-                    }
-
-                    // Third slide animation
-                    if (actIndex == 2) {
-                        $isAnimatedThirdTop.addClass('animated fadeInDown');
-                        $isAnimatedThirdTop.eq(1).css('animation-delay', '.3s');
-                        $isAnimatedThirdLeft.addClass('animated fadeInLeft');
-                        $isAnimatedThirdLeft.eq(0).css('animation-delay', '.5s');
-                        $isAnimatedThirdLeft.eq(1).css('animation-delay', '.7s');
-                    }
-
-                    // Fourth slide animation
-                    if (actIndex == 3) {
-                        $isAnimatedFourthTop.addClass('animated fadeInDown');
-                        $isAnimatedFourthTop.eq(0).css('animation-delay', '.3s');
-                        $isAnimatedFourth.addClass('animated fadeInRight');
-                        $isAnimatedFourth.eq(0).css('animation-delay', '.3s');
-                        $isAnimatedFourth.eq(1).css('animation-delay', '.5s');
-                        $isAnimatedFourth.eq(2).css('animation-delay', '.7s');
-                    }
-
-                    // Fifth slide animation
-                    if (actIndex == 4) {
-                        $isAnimatedFifthTop.addClass('animated fadeInDown');
-                        $isAnimatedFifthTop.eq(0).css('animation-delay', '.3s');
-                        $isAnimatedFifthLeft.addClass('animated fadeInLeft');
-                        $isAnimatedFifthLeft.eq(0).css('animation-delay', '.5s');
-                        $isAnimatedFifthLeft.eq(1).css('animation-delay', '.7s');
-                        $isAnimatedFifthLeft.eq(2).css('animation-delay', '.9s');
-                    }
-
-                    // Sixth slide animation
-                    if (actIndex == 5) {
-                        console.log(actIndex);
-                        $isAnimatedSixthTop.addClass('animated fadeInDown');
-                        $isAnimatedSixthTop.eq(0).css('animation-delay', '.3s');
-                        $isAnimatedSixth.addClass('animated fadeInRight');
-                        $isAnimatedSixth.eq(0).css('animation-delay', '.5s');
-                        $isAnimatedSixth.eq(1).css('animation-delay', '.7s');
-                        $isAnimatedSixth.eq(2).css('animation-delay', '.9s');
-                    }
-
-                    //Seventh slide animation
-
-                    if (actIndex == 6) {
-                        console.log(actIndex);
-                        $isAnimatedSeventhTop.addClass('animated fadeInDown');
-                        $isAnimatedSeventhTop.eq(0).css('animation-delay', '.3s');
-                        $isAnimatedSeventhLeft.addClass('animated fadeInLeft');
-                        $isAnimatedSeventhLeft.eq(0).css('animation-delay', '.5s');
-                        $isAnimatedSeventhLeft.eq(1).css('animation-delay', '.7s');
-                        $isAnimatedSeventhLeft.eq(2).css('animation-delay', '.9s');
-                    }
-
-                    // Eight slide animation
-
-                    if (actIndex == 7) {
-                        console.log(actIndex);
-                        $isAnimatedEightTop.addClass('animated fadeInDown');
-                        $isAnimatedEightTop.eq(0).css('animation-delay', '.3s');
-                        $isAnimatedEightLeft.addClass('animated fadeInLeft');
-                        $isAnimatedEightLeft.eq(0).css('animation-delay', '.3s');
-                        $isAnimatedEightLeft.eq(0).css('animation-delay', '.5s');
-                        $isAnimatedEight.addClass('animated fadeInRight');
-                        $isAnimatedEight.eq(0).css('animation-delay', '.3s');
-                        $isAnimatedEight.eq(0).css('animation-delay', '.5s');
-                    }
-                }
-
+                anchors: ['home', 'recharge', 'about', 'kanna', 'ashwagandharista', 'balaristha', 'drakshasava', 'no-sugar', 'benefits', 'contact-seller,', 'purchase-now', 'contact', 'footer'],
+                responsiveWidth: 900,
+                scrollOverflow: true,
+                fadingEffect: true,
+                afterResponsive: function (isResponsive) {
+                },    
             });
-
         })(jQuery);
     </script>
-    <script type="text/javascript">
-        var custom = new custom('#custom', {
-            responsiveWidth: 1100,
-            afterResponsive: function (isResponsive) {
 
-            }
-
-        });
-    </script>
     <script>
-
         var togSrc = ['img/down-arrow.png', 'img/upside.png'];
-
         $(".tog").click(function () {
             this.src = togSrc.reverse()[0];
+            scroll
         });
     </script>
 
