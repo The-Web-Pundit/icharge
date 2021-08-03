@@ -1,0 +1,173 @@
+.btn:focus {
+  outline: none !important;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+/* .flavour-shadow {
+    -webkit-filter: drop-shadow(10px 10px 10px #808080);  
+    filter: drop-shadow(10px 10px 10px #808080);
+}
+.bar-shadow {
+  -webkit-filter: drop-shadow(100px 100px 100px #808080);
+  filter: drop-shadow(100px 100px 100px #808080);
+} */
+.space {
+  height:100vh;
+}
+.blend {
+height:50vh;
+}
+@media (max-width: 575.98px) {
+  .bar-position {
+    position: absolute;
+    top:58%;
+    left:5%;
+  }
+  .slim {
+    width:75%;
+  }
+   
+  .flavour-position {
+    position: absolute;
+    top:38%;
+  }
+  .orange, .vanilla, .chocolate, .mango{
+    font-size: 7rem;
+    color:rgba(255, 255, 255, 0.29);
+    padding-top: 4rem;
+}
+.button-position {
+  position: absolute;
+  top:90%;
+}
+.space {
+  height:80vh;
+}
+.blend {
+height:40vh;
+} 
+
+  }
+
+  @media (max-width:360px) {
+   
+    .flavour-position {
+      position: absolute;
+      top:38%;
+    }
+    .orange, .vanilla, .chocolate, .mango{
+      font-size: 6rem;
+      padding-top: 3rem;
+  }
+  .button-position {
+    position: absolute;
+    top:90%;
+  }
+
+    }
+
+    @media (min-width: 768px) and (max-width:991.98px) {
+      .flavour-position {
+        position: absolute;
+        top:38%;
+      }
+      .orange, .vanilla, .chocolate, .mango{
+        font-size: 14rem;
+        color:rgba(255, 255, 255, 0.29);
+    }
+    .button-position {
+      position: absolute;
+      top:86%;
+    }
+    .bar-position {
+      position: absolute;
+      top:35%;
+    }
+    .nature {
+      height:95vh;
+    }
+    }
+
+    @media (min-width: 992px) and (max-width:1024px) {
+      .flavour-position {
+        position: absolute;
+        top:40%;
+      }
+      .orange, .vanilla, .chocolate, .mango{
+        font-size: 19rem;
+        color:rgba(255, 255, 255, 0.29);
+        padding-top:4rem;
+    }
+    .button-position {
+      position: absolute;
+      top:86%;
+    }
+    .bar-position {
+      position: absolute;
+      top:35%;
+    }
+    .nature {
+      height:95vh;
+    }
+  
+    }
+
+    @media (min-width: 1200px) and (max-width:2400px) 
+  { 
+    .flavour-position {
+      position: absolute;
+      top:20%;
+    }
+    .orange, .vanilla, .chocolate, .mango{
+      font-size: 17rem;
+      color:rgba(255, 255, 255, 0.29);
+  }
+  .button-position {
+    position: absolute;
+    top:85%;
+  }
+  .bar-position {
+    position: absolute;
+    top:29%;
+  }
+  .nature {
+    height:95vh;
+  } 
+
+  }
+  
+  @media  (min-width:2400px){
+    .orange, .vanilla, .chocolate, .mango{
+      font-size: 30rem;
+      color:rgba(255, 255, 255, 0.29);
+  }
+  .flavour-position {
+    position: absolute;
+    top:25%;
+  }
+  .bar-position {
+    position: absolute;
+    top:29%;
+  }
+  .button-position {
+    position: absolute;
+    top:90%;
+  }
+  .custom {
+    height:100vh;
+  }
+  .nature {
+    height:95vh;
+  } 
+  .section-head {
+    font-family:"FuturaStd-Heavy";
+    font-size:3.2rem !important;
+}
+.font-9 {
+  font-size:1.3rem !important;
+}
+.btn {
+  font-size:1.3rem;
+}
+  }
